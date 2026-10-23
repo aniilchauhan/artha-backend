@@ -1,0 +1,59 @@
+{
+    "capital_base_inr": 500000.0,
+    "max_positions": 5,
+    "risk_per_trade_pct": 1.0,
+    "orders": [
+        {
+            "ticker": "VEDL.NS",
+            "model_score": 0.4823,
+            "breakout_trigger_inr": 271.18,
+            "shares_to_buy": 460,
+            "required_capital_inr": 124742.8,
+            "capital_weight_pct": 24.95,
+            "stop_loss_inr": 261.39,
+            "profit_target_inr": 276.6,
+            "max_risk_inr": 4503.4,
+            "potential_reward_inr": 2493.2,
+            "reward_to_risk_ratio": 0.55
+        },
+        {
+            "ticker": "HCLTECH.NS",
+            "model_score": 0.4191,
+            "breakout_trigger_inr": 1322.3,
+            "shares_to_buy": 94,
+            "required_capital_inr": 124296.2,
+            "capital_weight_pct": 24.86,
+            "stop_loss_inr": 1282.73,
+            "profit_target_inr": 1348.75,
+            "max_risk_inr": 3719.58,
+            "potential_reward_inr": 2486.3,
+            "reward_to_risk_ratio": 0.67
+        },
+        {
+            "ticker": "MARUTI.NS",
+            "model_score": 0.4112,
+            "breakout_trigger_inr": 12889.14,
+            "shares_to_buy": 9,
+            "required_capital_inr": 116002.26,
+            "capital_weight_pct": 23.2,
+            "stop_loss_inr": 12584.86,
+            "profit_target_inr": 13146.92,
+            "max_risk_inr": 2738.52,
+            "potential_reward_inr": 2320.02,
+            "reward_to_risk_ratio": 0.85
+        },
+        {
+            "ticker": "TECHM.NS",
+            "model_score": 0.4081,
+            "breakout_trigger_inr": 1601.99,
+            "shares_to_buy": 78,
+            "required_capital_inr": 124955.22,
+            "capital_weight_pct": 24.99,
+            "stop_loss_inr": 1558.36,
+            "profit_target_inr": 1634.03,
+            "max_risk_inr": 3403.14,
+            "potential_reward_inr": 2499.12,
+            "reward_to_risk_ratio": 0.73
+        }
+    ]
+}

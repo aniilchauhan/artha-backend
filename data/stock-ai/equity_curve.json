@@ -1,0 +1,1458 @@
+[
+  {
+    "Date": "2021-03-31",
+    "equity": 1.01849,
+    "drawdown": 0.0,
+    "ticker": "ADANIENT.NS",
+    "result": "WIN"
+  },
+  {
+    "Date": "2021-04-05",
+    "equity": 0.8690798433727411,
+    "drawdown": -0.1678329815270568,
+    "ticker": "BAJFINANCE.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2021-04-09",
+    "equity": 0.7943968540545648,
+    "drawdown": -0.2393439261490901,
+    "ticker": "JSWSTEEL.NS",
+    "result": "LOSS (AMBIGUOUS)"
+  },
+  {
+    "Date": "2021-04-12",
+    "equity": 0.8446272255664362,
+    "drawdown": -0.1912470121352938,
+    "ticker": "WIPRO.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2021-04-12",
+    "equity": 0.973849630450489,
+    "drawdown": -0.0675131294405309,
+    "ticker": "HEROMOTOCO.NS",
+    "result": "WIN"
+  },
+  {
+    "Date": "2021-04-13",
+    "equity": 0.8587789187633315,
+    "drawdown": -0.1776963902634283,
+    "ticker": "HAL.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2021-04-15",
+    "equity": 0.7069233404239327,
+    "drawdown": -0.3231021373059163,
+    "ticker": "BAJFINANCE.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2021-04-19",
+    "equity": 0.6261270518717065,
+    "drawdown": -0.4004667282130704,
+    "ticker": "ADANIPORTS.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2021-04-23",
+    "equity": 0.6656140410497055,
+    "drawdown": -0.3626568879512068,
+    "ticker": "HINDALCO.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2021-04-28",
+    "equity": 0.6847265640232366,
+    "drawdown": -0.3443561398902975,
+    "ticker": "SBIN.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2021-05-03",
+    "equity": 0.6304764709591703,
+    "drawdown": -0.3963020439879046,
+    "ticker": "JSWSTEEL.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2021-05-06",
+    "equity": 0.608582778215621,
+    "drawdown": -0.4172658359256587,
+    "ticker": "HINDALCO.NS",
+    "result": "LOSS (AMBIGUOUS)"
+  },
+  {
+    "Date": "2021-05-12",
+    "equity": 0.5561240260065226,
+    "drawdown": -0.4674964836061312,
+    "ticker": "JSWSTEEL.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2021-05-20",
+    "equity": 0.4716724422886352,
+    "drawdown": -0.5483611166588286,
+    "ticker": "BEL.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2021-05-27",
+    "equity": 0.4035813668527767,
+    "drawdown": -0.6135601287659042,
+    "ticker": "HINDALCO.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2021-06-09",
+    "equity": 0.3524530237547001,
+    "drawdown": -0.6625168744088242,
+    "ticker": "BEL.NS",
+    "result": "WIN (CLOSE)"
+  },
+  {
+    "Date": "2021-06-24",
+    "equity": 0.3079980625884655,
+    "drawdown": -0.7050836797169178,
+    "ticker": "ADANIPORTS.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2021-08-06",
+    "equity": 0.2570267195579073,
+    "drawdown": -0.7538900936278535,
+    "ticker": "ADANIENT.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2021-08-31",
+    "equity": 0.2246078947315279,
+    "drawdown": -0.7849319789090361,
+    "ticker": "HINDALCO.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2021-09-29",
+    "equity": 0.1924818823373609,
+    "drawdown": -0.8156934885141008,
+    "ticker": "ONGC.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2021-10-11",
+    "equity": 0.1789843916223576,
+    "drawdown": -0.8286176941447142,
+    "ticker": "COALINDIA.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2021-10-20",
+    "equity": 0.1491532156711455,
+    "drawdown": -0.8571818369425986,
+    "ticker": "VEDL.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2021-10-28",
+    "equity": 0.1308696486368422,
+    "drawdown": -0.8746888376882835,
+    "ticker": "VEDL.NS",
+    "result": "LOSS (AMBIGUOUS)"
+  },
+  {
+    "Date": "2021-11-03",
+    "equity": 0.1125519503125139,
+    "drawdown": -0.8922285200501322,
+    "ticker": "TRENT.NS",
+    "result": "LOSS (CLOSE)"
+  },
+  {
+    "Date": "2021-11-22",
+    "equity": 0.1041904597916629,
+    "drawdown": -0.9002348691672893,
+    "ticker": "TATASTEEL.NS",
+    "result": "WIN"
+  },
+  {
+    "Date": "2021-11-23",
+    "equity": 0.1144415135913756,
+    "drawdown": -0.8904192130549499,
+    "ticker": "INDUSINDBK.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2021-11-26",
+    "equity": 0.0948956260620998,
+    "drawdown": -0.909134919181008,
+    "ticker": "ITC.NS",
+    "result": "LOSS (CLOSE)"
+  },
+  {
+    "Date": "2021-11-26",
+    "equity": 0.0735836529089076,
+    "drawdown": -0.9295416991701062,
+    "ticker": "BAJFINANCE.NS",
+    "result": "LOSS (AMBIGUOUS)"
+  },
+  {
+    "Date": "2021-11-29",
+    "equity": 0.0587887723124101,
+    "drawdown": -0.9437081900495524,
+    "ticker": "ADANIENT.NS",
+    "result": "LOSS (AMBIGUOUS)"
+  },
+  {
+    "Date": "2021-12-01",
+    "equity": 0.0602414812991826,
+    "drawdown": -0.9423171826346988,
+    "ticker": "SBIN.NS",
+    "result": "WIN (CLOSE)"
+  },
+  {
+    "Date": "2021-12-02",
+    "equity": 0.0637632832984676,
+    "drawdown": -0.93894496373934,
+    "ticker": "TITAN.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2021-12-08",
+    "equity": 0.0588692731994687,
+    "drawdown": -0.9436311083134166,
+    "ticker": "POWERGRID.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2021-12-17",
+    "equity": 0.0493879884572557,
+    "drawdown": -0.9527096901208147,
+    "ticker": "CIPLA.NS",
+    "result": "WIN"
+  },
+  {
+    "Date": "2021-12-20",
+    "equity": 0.0495911058810379,
+    "drawdown": -0.9525151997960908,
+    "ticker": "ADANIPORTS.NS",
+    "result": "LOSS (AMBIGUOUS)"
+  },
+  {
+    "Date": "2021-12-21",
+    "equity": 0.0489170434290512,
+    "drawdown": -0.9531606324858624,
+    "ticker": "SUNPHARMA.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2021-12-21",
+    "equity": 0.0544676579742718,
+    "drawdown": -0.9478457717259312,
+    "ticker": "COALINDIA.NS",
+    "result": "WIN"
+  },
+  {
+    "Date": "2022-01-20",
+    "equity": 0.0509489255033998,
+    "drawdown": -0.9512150514663584,
+    "ticker": "APOLLOHOSP.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-01-24",
+    "equity": 0.0481930177296909,
+    "drawdown": -0.9538539063111948,
+    "ticker": "TITAN.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-01-24",
+    "equity": 0.0472531891027879,
+    "drawdown": -0.9547538171678204,
+    "ticker": "CIPLA.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-01-25",
+    "equity": 0.0400774396856885,
+    "drawdown": -0.9616247877043852,
+    "ticker": "HCLTECH.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-01-31",
+    "equity": 0.0407764066227641,
+    "drawdown": -0.9609555083090882,
+    "ticker": "INFY.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-02-07",
+    "equity": 0.0393085684407088,
+    "drawdown": -0.9623610023300072,
+    "ticker": "INDUSINDBK.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-02-14",
+    "equity": 0.0362661460704347,
+    "drawdown": -0.9652742025061624,
+    "ticker": "TECHM.NS",
+    "result": "WIN"
+  },
+  {
+    "Date": "2022-02-15",
+    "equity": 0.0336437152076755,
+    "drawdown": -0.9677852496658164,
+    "ticker": "SBIN.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-02-22",
+    "equity": 0.0316960258384936,
+    "drawdown": -0.969650213935352,
+    "ticker": "POWERGRID.NS",
+    "result": "LOSS (CLOSE)"
+  },
+  {
+    "Date": "2022-02-22",
+    "equity": 0.0299195058240044,
+    "drawdown": -0.9713512790043306,
+    "ticker": "DIVISLAB.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-02-24",
+    "equity": 0.0256978251799365,
+    "drawdown": -0.9753936502793163,
+    "ticker": "NTPC.NS",
+    "result": "WIN"
+  },
+  {
+    "Date": "2022-02-24",
+    "equity": 0.0302701063814695,
+    "drawdown": -0.971015569664383,
+    "ticker": "NESTLEIND.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-02-24",
+    "equity": 0.0330475782349328,
+    "drawdown": -0.9683560666407948,
+    "ticker": "EICHERMOT.NS",
+    "result": "LOSS (CLOSE)"
+  },
+  {
+    "Date": "2022-02-25",
+    "equity": 0.0364157163135382,
+    "drawdown": -0.965130985028269,
+    "ticker": "TRENT.NS",
+    "result": "WIN"
+  },
+  {
+    "Date": "2022-02-25",
+    "equity": 0.0327878922995795,
+    "drawdown": -0.9686047228168764,
+    "ticker": "DRREDDY.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-03-02",
+    "equity": 0.0321567215515908,
+    "drawdown": -0.9692090855615726,
+    "ticker": "POWERGRID.NS",
+    "result": "WIN"
+  },
+  {
+    "Date": "2022-03-02",
+    "equity": 0.0271344584706401,
+    "drawdown": -0.9740180357701544,
+    "ticker": "HEROMOTOCO.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-03-03",
+    "equity": 0.0230138884466687,
+    "drawdown": -0.9779635909425652,
+    "ticker": "HEROMOTOCO.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-03-04",
+    "equity": 0.0199539283257365,
+    "drawdown": -0.980893583980489,
+    "ticker": "TATACONSUM.NS",
+    "result": "LOSS (AMBIGUOUS)"
+  },
+  {
+    "Date": "2022-03-07",
+    "equity": 0.0169237753927613,
+    "drawdown": -0.9837950358447564,
+    "ticker": "SBIN.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-03-08",
+    "equity": 0.0135210463044431,
+    "drawdown": -0.9870532392672496,
+    "ticker": "VEDL.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-03-09",
+    "equity": 0.0115480724496946,
+    "drawdown": -0.9889424141028544,
+    "ticker": "RELIANCE.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-03-09",
+    "equity": 0.0100480872125408,
+    "drawdown": -0.9903786897823266,
+    "ticker": "BEL.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-03-10",
+    "equity": 0.0095613733320848,
+    "drawdown": -0.9908447312419656,
+    "ticker": "TATASTEEL.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-03-11",
+    "equity": 0.0095882970383747,
+    "drawdown": -0.9908189510785432,
+    "ticker": "KOTAKBANK.NS",
+    "result": "WIN"
+  },
+  {
+    "Date": "2022-03-11",
+    "equity": 0.0086928677924689,
+    "drawdown": -0.9916763483493476,
+    "ticker": "CIPLA.NS",
+    "result": "WIN (CLOSE)"
+  },
+  {
+    "Date": "2022-03-14",
+    "equity": 0.0076035600422578,
+    "drawdown": -0.9927193894342432,
+    "ticker": "SHREECEM.NS",
+    "result": "WIN"
+  },
+  {
+    "Date": "2022-03-15",
+    "equity": 0.0069840403717669,
+    "drawdown": -0.9933125959629748,
+    "ticker": "TATACONSUM.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-03-16",
+    "equity": 0.0079388079655646,
+    "drawdown": -0.9923983806490152,
+    "ticker": "COALINDIA.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-03-21",
+    "equity": 0.0075417817106702,
+    "drawdown": -0.9927785438265532,
+    "ticker": "AXISBANK.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-03-24",
+    "equity": 0.0066701246206355,
+    "drawdown": -0.9936131786271142,
+    "ticker": "TRENT.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-04-04",
+    "equity": 0.0060350050523689,
+    "drawdown": -0.9942213224720424,
+    "ticker": "HAL.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-04-19",
+    "equity": 0.0052121896711302,
+    "drawdown": -0.99500919004,
+    "ticker": "NTPC.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-04-19",
+    "equity": 0.0049185120685465,
+    "drawdown": -0.9952903941397128,
+    "ticker": "ADANIENT.NS",
+    "result": "WIN (CLOSE)"
+  },
+  {
+    "Date": "2022-04-25",
+    "equity": 0.0048270558272274,
+    "drawdown": -0.9953779659183472,
+    "ticker": "ITC.NS",
+    "result": "WIN (CLOSE)"
+  },
+  {
+    "Date": "2022-04-28",
+    "equity": 0.0043593053528974,
+    "drawdown": -0.9958258494132652,
+    "ticker": "TRENT.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-05-04",
+    "equity": 0.0040406061979125,
+    "drawdown": -0.9961310123135624,
+    "ticker": "ADANIENT.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-05-06",
+    "equity": 0.0032591657917084,
+    "drawdown": -0.9968792622446868,
+    "ticker": "BEL.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-05-09",
+    "equity": 0.0027062973402244,
+    "drawdown": -0.997408648462061,
+    "ticker": "ADANIPORTS.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-05-11",
+    "equity": 0.0022277500228892,
+    "drawdown": -0.9978668702207424,
+    "ticker": "TRENT.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-05-12",
+    "equity": 0.0017274345642108,
+    "drawdown": -0.9983459355525636,
+    "ticker": "APOLLOHOSP.NS",
+    "result": "LOSS (AMBIGUOUS)"
+  },
+  {
+    "Date": "2022-05-17",
+    "equity": 0.0014810167938205,
+    "drawdown": -0.998581887108509,
+    "ticker": "HINDALCO.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-05-19",
+    "equity": 0.0013374326682754,
+    "drawdown": -0.9987193727199474,
+    "ticker": "TRENT.NS",
+    "result": "WIN"
+  },
+  {
+    "Date": "2022-05-20",
+    "equity": 0.001160471576349,
+    "drawdown": -0.998888817662638,
+    "ticker": "APOLLOHOSP.NS",
+    "result": "WIN"
+  },
+  {
+    "Date": "2022-05-24",
+    "equity": 0.0009043148044795,
+    "drawdown": -0.9991340945710072,
+    "ticker": "HINDALCO.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-05-26",
+    "equity": 0.0008070778306156,
+    "drawdown": -0.999227201554494,
+    "ticker": "ULTRACEMCO.NS",
+    "result": "WIN (CLOSE)"
+  },
+  {
+    "Date": "2022-05-27",
+    "equity": 0.0007938778199688,
+    "drawdown": -0.9992398409150632,
+    "ticker": "HINDALCO.NS",
+    "result": "LOSS (AMBIGUOUS)"
+  },
+  {
+    "Date": "2022-05-30",
+    "equity": 0.0009004607746674,
+    "drawdown": -0.9991377849068518,
+    "ticker": "TATASTEEL.NS",
+    "result": "WIN"
+  },
+  {
+    "Date": "2022-05-31",
+    "equity": 0.0009082878287415,
+    "drawdown": -0.999130290294818,
+    "ticker": "TATASTEEL.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-06-01",
+    "equity": 0.00087865441075,
+    "drawdown": -0.9991586650791204,
+    "ticker": "APOLLOHOSP.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-06-07",
+    "equity": 0.0007639043584653,
+    "drawdown": -0.9992685413000542,
+    "ticker": "SHREECEM.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-06-10",
+    "equity": 0.0006898891255709,
+    "drawdown": -0.9993394128501758,
+    "ticker": "TATASTEEL.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-06-13",
+    "equity": 0.0006541886426517,
+    "drawdown": -0.9993735970101876,
+    "ticker": "RELIANCE.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-06-13",
+    "equity": 0.0007017863134466,
+    "drawdown": -0.9993280209769916,
+    "ticker": "BAJAJ-AUTO.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-06-14",
+    "equity": 0.0007336797000425,
+    "drawdown": -0.9992974822127628,
+    "ticker": "TRENT.NS",
+    "result": "WIN"
+  },
+  {
+    "Date": "2022-06-15",
+    "equity": 0.0006449339483912,
+    "drawdown": -0.9993824586255944,
+    "ticker": "BAJAJFINSV.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-06-16",
+    "equity": 0.0005630669754554,
+    "drawdown": -0.9994608484252184,
+    "ticker": "SHREECEM.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-06-16",
+    "equity": 0.0005519261400214,
+    "drawdown": -0.9994715160708636,
+    "ticker": "DIVISLAB.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-06-17",
+    "equity": 0.0004957605461031,
+    "drawdown": -0.9995252961178732,
+    "ticker": "ICICIBANK.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-06-20",
+    "equity": 0.0004574695458074,
+    "drawdown": -0.9995619607670344,
+    "ticker": "NTPC.NS",
+    "result": "WIN"
+  },
+  {
+    "Date": "2022-06-21",
+    "equity": 0.0004574707464521,
+    "drawdown": -0.9995619596173853,
+    "ticker": "JSWSTEEL.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-06-22",
+    "equity": 0.0003638304518302,
+    "drawdown": -0.9996516226850294,
+    "ticker": "WIPRO.NS",
+    "result": "WIN (CLOSE)"
+  },
+  {
+    "Date": "2022-06-22",
+    "equity": 0.000305404387123,
+    "drawdown": -0.9997075671928204,
+    "ticker": "GRASIM.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-06-24",
+    "equity": 0.0002826634382123,
+    "drawdown": -0.9997293422550274,
+    "ticker": "HINDALCO.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-06-30",
+    "equity": 0.0002621765258558,
+    "drawdown": -0.9997489590174036,
+    "ticker": "TATASTEEL.NS",
+    "result": "WIN (CLOSE)"
+  },
+  {
+    "Date": "2022-07-06",
+    "equity": 0.0002320307768657,
+    "drawdown": -0.999777824372236,
+    "ticker": "TATASTEEL.NS",
+    "result": "LOSS (AMBIGUOUS)"
+  },
+  {
+    "Date": "2022-07-14",
+    "equity": 0.0002126917307382,
+    "drawdown": -0.9997963420222296,
+    "ticker": "ONGC.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-07-29",
+    "equity": 0.0001879555564753,
+    "drawdown": -0.9998200275656716,
+    "ticker": "SUNPHARMA.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-08-19",
+    "equity": 0.0001702654416589,
+    "drawdown": -0.9998369663201664,
+    "ticker": "ADANIPORTS.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-09-23",
+    "equity": 0.0001523217896018,
+    "drawdown": -0.9998541478432988,
+    "ticker": "POWERGRID.NS",
+    "result": "LOSS (AMBIGUOUS)"
+  },
+  {
+    "Date": "2022-09-27",
+    "equity": 0.0001249644321353,
+    "drawdown": -0.9998803432392338,
+    "ticker": "BAJAJFINSV.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-10-04",
+    "equity": 0.0001125151653438,
+    "drawdown": -0.999892263742634,
+    "ticker": "ONGC.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2022-11-11",
+    "equity": 0.0001001473933283,
+    "drawdown": -0.999904106212623,
+    "ticker": "TRENT.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2023-02-02",
+    "equity": 9.09643080493725e-05,
+    "drawdown": -0.9999128992605292,
+    "ticker": "ADANIPORTS.NS",
+    "result": "LOSS (AMBIGUOUS)"
+  },
+  {
+    "Date": "2023-02-14",
+    "equity": 7.267483718279955e-05,
+    "drawdown": -0.999930411914351,
+    "ticker": "ADANIPORTS.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2023-02-28",
+    "equity": 5.806268494539334e-05,
+    "drawdown": -0.9999444034379764,
+    "ticker": "ADANIENT.NS",
+    "result": "WIN"
+  },
+  {
+    "Date": "2023-03-13",
+    "equity": 5.073922839802887e-05,
+    "drawdown": -0.999951415842011,
+    "ticker": "SHREECEM.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2023-03-21",
+    "equity": 4.176714640517672e-05,
+    "drawdown": -0.9999600068486696,
+    "ticker": "ADANIENT.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2023-04-12",
+    "equity": 3.967389723084318e-05,
+    "drawdown": -0.9999620111903164,
+    "ticker": "ADANIENT.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2023-06-01",
+    "equity": 3.680504945357923e-05,
+    "drawdown": -0.9999647581882124,
+    "ticker": "ADANIENT.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2023-12-08",
+    "equity": 3.0655448573971374e-05,
+    "drawdown": -0.9999706465942868,
+    "ticker": "ADANIPORTS.NS",
+    "result": "LOSS (AMBIGUOUS)"
+  },
+  {
+    "Date": "2024-01-03",
+    "equity": 2.8966821372939566e-05,
+    "drawdown": -0.9999722634996538,
+    "ticker": "VEDL.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2024-01-31",
+    "equity": 2.6113271133037167e-05,
+    "drawdown": -0.999974995849752,
+    "ticker": "COALINDIA.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2024-02-12",
+    "equity": 2.214777602742969e-05,
+    "drawdown": -0.9999787929165735,
+    "ticker": "BPCL.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2024-02-19",
+    "equity": 1.953662727333177e-05,
+    "drawdown": -0.9999812931608149,
+    "ticker": "BPCL.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2024-03-13",
+    "equity": 1.6569844619493344e-05,
+    "drawdown": -0.9999841339339548,
+    "ticker": "ONGC.NS",
+    "result": "WIN"
+  },
+  {
+    "Date": "2024-03-19",
+    "equity": 1.4348097604509607e-05,
+    "drawdown": -0.9999862613156946,
+    "ticker": "TRENT.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2024-04-04",
+    "equity": 1.4390341362828852e-05,
+    "drawdown": -0.9999862208661748,
+    "ticker": "BEL.NS",
+    "result": "WIN"
+  },
+  {
+    "Date": "2024-04-22",
+    "equity": 1.2575285104725516e-05,
+    "drawdown": -0.9999879588307198,
+    "ticker": "VEDL.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2024-05-03",
+    "equity": 1.135912991462852e-05,
+    "drawdown": -0.9999891233315952,
+    "ticker": "BPCL.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2024-05-07",
+    "equity": 9.700022407981598e-06,
+    "drawdown": -0.9999907119710716,
+    "ticker": "JSWSTEEL.NS",
+    "result": "WIN (CLOSE)"
+  },
+  {
+    "Date": "2024-05-09",
+    "equity": 1.0090372347392616e-05,
+    "drawdown": -0.9999903382006432,
+    "ticker": "BPCL.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2024-05-23",
+    "equity": 9.31313150467523e-06,
+    "drawdown": -0.999991082429381,
+    "ticker": "ADANIENT.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2024-05-30",
+    "equity": 8.305477812621406e-06,
+    "drawdown": -0.9999920472845376,
+    "ticker": "TATASTEEL.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2024-06-04",
+    "equity": 7.145350737246358e-06,
+    "drawdown": -0.9999931581370062,
+    "ticker": "M&M.NS",
+    "result": "WIN"
+  },
+  {
+    "Date": "2024-06-04",
+    "equity": 6.3557960163944736e-06,
+    "drawdown": -0.9999939141566092,
+    "ticker": "BAJAJFINSV.NS",
+    "result": "LOSS (AMBIGUOUS)"
+  },
+  {
+    "Date": "2024-06-05",
+    "equity": 6.075057473162841e-06,
+    "drawdown": -0.999994182971216,
+    "ticker": "POWERGRID.NS",
+    "result": "LOSS (AMBIGUOUS)"
+  },
+  {
+    "Date": "2024-06-05",
+    "equity": 5.83422182488395e-06,
+    "drawdown": -0.9999944135777418,
+    "ticker": "GRASIM.NS",
+    "result": "WIN (CLOSE)"
+  },
+  {
+    "Date": "2024-06-06",
+    "equity": 6.624694833405409e-06,
+    "drawdown": -0.9999936566788544,
+    "ticker": "BAJFINANCE.NS",
+    "result": "WIN"
+  },
+  {
+    "Date": "2024-06-10",
+    "equity": 6.145520615643223e-06,
+    "drawdown": -0.9999941155008868,
+    "ticker": "BEL.NS",
+    "result": "LOSS (CLOSE)"
+  },
+  {
+    "Date": "2024-06-18",
+    "equity": 5.760508549732305e-06,
+    "drawdown": -0.9999944841601596,
+    "ticker": "ONGC.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2024-06-27",
+    "equity": 4.849630330972159e-06,
+    "drawdown": -0.9999953563502318,
+    "ticker": "BEL.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2024-07-11",
+    "equity": 4.576394302988707e-06,
+    "drawdown": -0.9999956179809812,
+    "ticker": "VEDL.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2024-07-23",
+    "equity": 3.752754275124173e-06,
+    "drawdown": -0.9999964066381702,
+    "ticker": "ONGC.NS",
+    "result": "WIN"
+  },
+  {
+    "Date": "2024-07-29",
+    "equity": 3.877676303854672e-06,
+    "drawdown": -0.999996287022012,
+    "ticker": "AXISBANK.NS",
+    "result": "WIN (CLOSE)"
+  },
+  {
+    "Date": "2024-08-05",
+    "equity": 3.4381863901856463e-06,
+    "drawdown": -0.9999967078452696,
+    "ticker": "POWERGRID.NS",
+    "result": "LOSS (AMBIGUOUS)"
+  },
+  {
+    "Date": "2024-08-05",
+    "equity": 3.079347839263204e-06,
+    "drawdown": -0.9999970514427072,
+    "ticker": "BPCL.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2024-08-07",
+    "equity": 3.0436723789882085e-06,
+    "drawdown": -0.9999970856029072,
+    "ticker": "ONGC.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2024-08-12",
+    "equity": 2.6032736882046046e-06,
+    "drawdown": -0.9999975072963436,
+    "ticker": "TRENT.NS",
+    "result": "WIN (CLOSE)"
+  },
+  {
+    "Date": "2024-10-07",
+    "equity": 2.371507565744268e-06,
+    "drawdown": -0.9999977292185576,
+    "ticker": "HAL.NS",
+    "result": "WIN"
+  },
+  {
+    "Date": "2024-10-25",
+    "equity": 2.060451808221936e-06,
+    "drawdown": -0.999998027062702,
+    "ticker": "TRENT.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2024-11-07",
+    "equity": 2.0670912669254893e-06,
+    "drawdown": -0.999998020705244,
+    "ticker": "HINDALCO.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2024-11-14",
+    "equity": 1.8123400285991768e-06,
+    "drawdown": -0.9999982646363168,
+    "ticker": "HAL.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2024-11-21",
+    "equity": 1.7206865510412176e-06,
+    "drawdown": -0.9999983523969544,
+    "ticker": "BPCL.NS",
+    "result": "WIN (CLOSE)"
+  },
+  {
+    "Date": "2024-11-29",
+    "equity": 1.5864523607640974e-06,
+    "drawdown": -0.9999984809297544,
+    "ticker": "ADANIENT.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2024-12-20",
+    "equity": 1.4315744400625036e-06,
+    "drawdown": -0.9999986292294746,
+    "ticker": "AXISBANK.NS",
+    "result": "WIN (CLOSE)"
+  },
+  {
+    "Date": "2025-01-13",
+    "equity": 1.4491119098735285e-06,
+    "drawdown": -0.9999986124368818,
+    "ticker": "HAL.NS",
+    "result": "WIN (CLOSE)"
+  },
+  {
+    "Date": "2025-01-23",
+    "equity": 1.5441928927540088e-06,
+    "drawdown": -0.999998521394317,
+    "ticker": "WIPRO.NS",
+    "result": "WIN (CLOSE)"
+  },
+  {
+    "Date": "2025-02-01",
+    "equity": 1.286337677325134e-06,
+    "drawdown": -0.99999876829753,
+    "ticker": "ULTRACEMCO.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2025-02-07",
+    "equity": 1.2731839673369666e-06,
+    "drawdown": -0.9999987808925564,
+    "ticker": "BEL.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2025-02-13",
+    "equity": 1.107649189924017e-06,
+    "drawdown": -0.9999989393964998,
+    "ticker": "VEDL.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2025-02-21",
+    "equity": 9.117865474463756e-07,
+    "drawdown": -0.9999991269401788,
+    "ticker": "M&M.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2025-03-03",
+    "equity": 8.516044935902467e-07,
+    "drawdown": -0.9999991845660928,
+    "ticker": "VEDL.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2025-03-17",
+    "equity": 8.250634858824306e-07,
+    "drawdown": -0.999999209979812,
+    "ticker": "INDUSINDBK.NS",
+    "result": "LOSS (CLOSE)"
+  },
+  {
+    "Date": "2025-03-26",
+    "equity": 8.273524393549706e-07,
+    "drawdown": -0.9999992077880784,
+    "ticker": "TRENT.NS",
+    "result": "WIN (CLOSE)"
+  },
+  {
+    "Date": "2025-04-04",
+    "equity": 8.87186249190927e-07,
+    "drawdown": -0.9999991504956174,
+    "ticker": "ADANIPORTS.NS",
+    "result": "WIN"
+  },
+  {
+    "Date": "2025-04-07",
+    "equity": 7.767303067674427e-07,
+    "drawdown": -0.999999256260114,
+    "ticker": "WIPRO.NS",
+    "result": "WIN (CLOSE)"
+  },
+  {
+    "Date": "2025-04-07",
+    "equity": 8.180210821635622e-07,
+    "drawdown": -0.9999992167231008,
+    "ticker": "HEROMOTOCO.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2025-04-08",
+    "equity": 7.353786200089909e-07,
+    "drawdown": -0.9999992958554518,
+    "ticker": "DRREDDY.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2025-04-09",
+    "equity": 6.642718289491717e-07,
+    "drawdown": -0.9999993639420918,
+    "ticker": "POWERGRID.NS",
+    "result": "WIN"
+  },
+  {
+    "Date": "2025-04-11",
+    "equity": 6.122500233206205e-07,
+    "drawdown": -0.9999994137543514,
+    "ticker": "JSWSTEEL.NS",
+    "result": "LOSS (CLOSE)"
+  },
+  {
+    "Date": "2025-04-11",
+    "equity": 5.311423519711101e-07,
+    "drawdown": -0.9999994914170997,
+    "ticker": "HAL.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2025-04-15",
+    "equity": 5.219540767108207e-07,
+    "drawdown": -0.9999995002151172,
+    "ticker": "ADANIENT.NS",
+    "result": "WIN (CLOSE)"
+  },
+  {
+    "Date": "2025-04-22",
+    "equity": 5.040205051124319e-07,
+    "drawdown": -0.999999517386988,
+    "ticker": "TATASTEEL.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2025-04-30",
+    "equity": 4.585239571953699e-07,
+    "drawdown": -0.99999956095114,
+    "ticker": "TRENT.NS",
+    "result": "LOSS (CLOSE)"
+  },
+  {
+    "Date": "2025-05-14",
+    "equity": 4.2531766320529526e-07,
+    "drawdown": -0.999999592747048,
+    "ticker": "HEROMOTOCO.NS",
+    "result": "WIN"
+  },
+  {
+    "Date": "2025-05-16",
+    "equity": 4.159318941448308e-07,
+    "drawdown": -0.9999996017341712,
+    "ticker": "INDUSINDBK.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2025-11-12",
+    "equity": 3.680200054863184e-07,
+    "drawdown": -0.999999647611076,
+    "ticker": "ADANIENT.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2026-01-19",
+    "equity": 3.3923320140823655e-07,
+    "drawdown": -0.9999996751752052,
+    "ticker": "TRENT.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2026-02-04",
+    "equity": 3.6121922584524846e-07,
+    "drawdown": -0.9999996541230032,
+    "ticker": "ADANIENT.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2026-02-18",
+    "equity": 3.48566675804297e-07,
+    "drawdown": -0.9999996662381558,
+    "ticker": "INFY.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2026-03-02",
+    "equity": 3.326886701833451e-07,
+    "drawdown": -0.9999996814417677,
+    "ticker": "HCLTECH.NS",
+    "result": "WIN (CLOSE)"
+  },
+  {
+    "Date": "2026-03-04",
+    "equity": 3.4991588908730857e-07,
+    "drawdown": -0.999999664946248,
+    "ticker": "ULTRACEMCO.NS",
+    "result": "WIN (CLOSE)"
+  },
+  {
+    "Date": "2026-03-04",
+    "equity": 3.254343481260163e-07,
+    "drawdown": -0.9999996883879736,
+    "ticker": "HCLTECH.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2026-03-06",
+    "equity": 3.2007947050810497e-07,
+    "drawdown": -0.999999693515411,
+    "ticker": "RELIANCE.NS",
+    "result": "WIN"
+  },
+  {
+    "Date": "2026-03-06",
+    "equity": 2.9693429593218386e-07,
+    "drawdown": -0.99999971567753,
+    "ticker": "EICHERMOT.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2026-03-09",
+    "equity": 2.5614356235732944e-07,
+    "drawdown": -0.99999975473574,
+    "ticker": "TRENT.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2026-03-09",
+    "equity": 2.462237240231768e-07,
+    "drawdown": -0.9999997642342484,
+    "ticker": "HAL.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2026-03-10",
+    "equity": 2.1078585428131266e-07,
+    "drawdown": -0.9999997981669496,
+    "ticker": "EICHERMOT.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2026-03-13",
+    "equity": 1.7035783958369074e-07,
+    "drawdown": -0.9999998368778468,
+    "ticker": "MARUTI.NS",
+    "result": "LOSS (AMBIGUOUS)"
+  },
+  {
+    "Date": "2026-03-16",
+    "equity": 1.8078903624630457e-07,
+    "drawdown": -0.9999998268896992,
+    "ticker": "M&M.NS",
+    "result": "WIN"
+  },
+  {
+    "Date": "2026-03-16",
+    "equity": 1.684484395677933e-07,
+    "drawdown": -0.9999998387061478,
+    "ticker": "BEL.NS",
+    "result": "WIN (CLOSE)"
+  },
+  {
+    "Date": "2026-03-19",
+    "equity": 1.8317888959338604e-07,
+    "drawdown": -0.999999824601351,
+    "ticker": "LT.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2026-03-19",
+    "equity": 1.9645943118592535e-07,
+    "drawdown": -0.99999981188488,
+    "ticker": "ADANIPORTS.NS",
+    "result": "WIN"
+  },
+  {
+    "Date": "2026-03-23",
+    "equity": 1.9701867515847413e-07,
+    "drawdown": -0.999999811349389,
+    "ticker": "KOTAKBANK.NS",
+    "result": "WIN"
+  },
+  {
+    "Date": "2026-03-23",
+    "equity": 1.6772988468157545e-07,
+    "drawdown": -0.9999998393941834,
+    "ticker": "ADANIPORTS.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2026-03-24",
+    "equity": 1.545605502803844e-07,
+    "drawdown": -0.9999998520041704,
+    "ticker": "VEDL.NS",
+    "result": "WIN (CLOSE)"
+  },
+  {
+    "Date": "2026-03-30",
+    "equity": 1.4269569837980546e-07,
+    "drawdown": -0.9999998633650812,
+    "ticker": "ULTRACEMCO.NS",
+    "result": "LOSS (AMBIGUOUS)"
+  },
+  {
+    "Date": "2026-04-01",
+    "equity": 1.315610420484343e-07,
+    "drawdown": -0.99999987402681,
+    "ticker": "ONGC.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2026-04-06",
+    "equity": 1.2801639890429318e-07,
+    "drawdown": -0.9999998774209,
+    "ticker": "INDUSINDBK.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2026-04-07",
+    "equity": 1.2349605993316117e-07,
+    "drawdown": -0.9999998817492448,
+    "ticker": "HINDALCO.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2026-04-08",
+    "equity": 1.3169390667702498e-07,
+    "drawdown": -0.9999998738995888,
+    "ticker": "JSWSTEEL.NS",
+    "result": "WIN"
+  },
+  {
+    "Date": "2026-04-13",
+    "equity": 1.5701775198255666e-07,
+    "drawdown": -0.9999998496513348,
+    "ticker": "LT.NS",
+    "result": "WIN (CLOSE)"
+  },
+  {
+    "Date": "2026-04-15",
+    "equity": 1.451490255573754e-07,
+    "drawdown": -0.9999998610159554,
+    "ticker": "ADANIENT.NS",
+    "result": "WIN (CLOSE)"
+  },
+  {
+    "Date": "2026-04-24",
+    "equity": 1.6915199379782322e-07,
+    "drawdown": -0.999999838032476,
+    "ticker": "ADANIENT.NS",
+    "result": "WIN (CLOSE)"
+  },
+  {
+    "Date": "2026-05-12",
+    "equity": 1.6766764751335965e-07,
+    "drawdown": -0.999999839453777,
+    "ticker": "VEDL.NS",
+    "result": "LOSS (AMBIGUOUS)"
+  },
+  {
+    "Date": "2026-05-14",
+    "equity": 1.749326740748596e-07,
+    "drawdown": -0.9999998324973212,
+    "ticker": "ADANIENT.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2026-05-28",
+    "equity": 1.5967819716218906e-07,
+    "drawdown": -0.999999847103888,
+    "ticker": "SBIN.NS",
+    "result": "LOSS (CLOSE)"
+  },
+  {
+    "Date": "2026-05-28",
+    "equity": 1.2800296639153309e-07,
+    "drawdown": -0.999999877433762,
+    "ticker": "BEL.NS",
+    "result": "LOSS (CLOSE)"
+  },
+  {
+    "Date": "2026-06-09",
+    "equity": 1.0500564225734149e-07,
+    "drawdown": -0.9999998994543104,
+    "ticker": "VEDL.NS",
+    "result": "LOSS"
+  },
+  {
+    "Date": "2026-06-26",
+    "equity": 9.489881753582304e-08,
+    "drawdown": -0.9999999091318632,
+    "ticker": "TECHM.NS",
+    "result": "LOSS (CLOSE)"
+  },
+  {
+    "Date": "2026-06-26",
+    "equity": 9.307726537096893e-08,
+    "drawdown": -0.9999999108760478,
+    "ticker": "BPCL.NS",
+    "result": "LOSS"
+  }
+]

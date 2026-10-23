@@ -1,0 +1,13 @@
+node_modules/
+.next/
+*.log
+.env*.local
+.env
+stock-ai/venv/
+stock-ai/runs/
+__pycache__/
+*.pyc
+stock-ai/outputs/
+stock-ai/data/
+*.parquet
+.DS_Store

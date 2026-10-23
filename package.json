@@ -1,0 +1,41 @@
+{
+  "name": "artha-backend",
+  "version": "0.1.0",
+  "private": true,
+  "engines": { "node": ">=20.0.0" },
+  "scripts": {
+    "dev": "next dev --port 4000",
+    "build": "next build",
+    "start": "next start",
+    "alerts:worker": "node --import tsx scripts/alerts-worker.mjs",
+    "paper:pre-market": "node --import tsx scripts/paper-predictions-runner.mjs --pre-market",
+    "paper:reconcile": "node --import tsx scripts/paper-predictions-runner.mjs --reconcile",
+    "paper:report": "node --import tsx scripts/paper-predictions-runner.mjs --report",
+    "radar:worker": "node --env-file-if-exists=.env.local --import tsx scripts/momentum-radar-worker.ts",
+    "radar:once": "node --env-file-if-exists=.env.local --import tsx scripts/momentum-radar-worker.ts --once",
+    "scan:daily": "node scripts/scheduled-daily-scan.mjs",
+    "ml:server": "python stock-ai/app.py",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@google/genai": "^2.10.0",
+    "bcryptjs": "^3.0.3",
+    "clsx": "^2.1.1",
+    "d3": "^7.9.0",
+    "mongoose": "^9.7.3",
+    "next": "^15.1.0",
+    "next-auth": "^4.24.14",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "xlsx": "^0.18.5",
+    "yahoo-finance2": "^3.15.4"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^20.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tsx": "^4.23.13",
+    "typescript": "^5.0.0"
+  }
+}

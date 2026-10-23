@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "ticker": "TESTSTORE",
+    "lastUpdated": "2026-10-22T06:40:54.058Z",
+    "candleCount": 3,
+    "oldestDate": "2026-10-01",
+    "newestDate": "2026-10-03",
+    "source": "local_disk_store"
+  },
+  "candles": [
+    {
+      "date": "2026-10-01",
+      "open": 100,
+      "high": 105,
+      "low": 99,
+      "close": 104,
+      "volume": 150000
+    },
+    {
+      "date": "2026-10-02",
+      "open": 104,
+      "high": 108,
+      "low": 103,
+      "close": 107,
+      "volume": 220000
+    },
+    {
+      "date": "2026-10-03",
+      "open": 107,
+      "high": 112,
+      "low": 106,
+      "close": 111,
+      "volume": 310000
+    }
+  ]
+}

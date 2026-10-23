@@ -1,0 +1,203 @@
+{
+    "model_type": "LightGBM LGBMClassifier",
+    "features": [
+        "atr_14",
+        "atr_pct",
+        "bb_position",
+        "bb_width",
+        "candle_body_pct",
+        "close_location",
+        "close_to_sma20",
+        "close_to_sma50",
+        "daily_hl_pct",
+        "dist_from_20d_high",
+        "dist_from_52w_high",
+        "ema5_to_ema20",
+        "ema_10",
+        "ema_20",
+        "ema_5",
+        "ema_50",
+        "gap_pct",
+        "india_vix_change_1d",
+        "india_vix_change_5d",
+        "india_vix_level",
+        "lower_wick_pct",
+        "macd",
+        "macd_diff",
+        "macd_diff_norm",
+        "macd_norm",
+        "macd_signal",
+        "nifty_auto_ret_1d",
+        "nifty_auto_ret_20d",
+        "nifty_auto_ret_5d",
+        "nifty_auto_trend",
+        "nifty_bank_ret_1d",
+        "nifty_bank_ret_20d",
+        "nifty_bank_ret_5d",
+        "nifty_bank_trend",
+        "nifty_it_ret_1d",
+        "nifty_it_ret_20d",
+        "nifty_it_ret_5d",
+        "nifty_it_trend",
+        "nifty_ret_1d",
+        "nifty_ret_20d",
+        "nifty_ret_5d",
+        "nifty_trend",
+        "ret_10d",
+        "ret_1d",
+        "ret_20d",
+        "ret_2d",
+        "ret_3d",
+        "ret_5d",
+        "rsi_14",
+        "sma_10",
+        "sma_20",
+        "sma_5",
+        "sma_50",
+        "stock_vs_nifty_1d",
+        "stock_vs_nifty_5d",
+        "stock_vs_sector_1d",
+        "upper_wick_pct",
+        "vol_10d",
+        "vol_20d",
+        "vol_5d",
+        "vol_pct_change",
+        "vol_to_sma20",
+        "vol_to_sma5",
+        "vol_trend_5_20"
+    ],
+    "num_features": 64,
+    "params": {
+        "n_estimators": 500,
+        "learning_rate": 0.03,
+        "num_leaves": 31,
+        "max_depth": 6,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "random_state": 42,
+        "n_jobs": -1,
+        "importance_type": "gain",
+        "verbose": -1,
+        "class_weight": "balanced"
+    },
+    "train_start": "2018-01-01",
+    "train_end": "2023-12-31",
+    "val_start": "2024-01-01",
+    "val_end": "2025-06-30",
+    "target_definition": "Next Day High >= Today Close * (1 + 0.02)",
+    "metrics": {
+        "val_roc_auc": 0.6542521143401846,
+        "val_pr_auc": 0.35456834054153924,
+        "val_accuracy": 0.7537669376693767,
+        "val_precision_at_0_5": 0.370789957134109,
+        "val_recall_at_0_5": 0.3273857799405245,
+        "val_f1_at_0_5": 0.34773869346733666,
+        "best_iteration": 500,
+        "train_rows": 71490,
+        "val_rows": 18450,
+        "train_pos_rate": 0.25002098195551825,
+        "val_pos_rate": 0.2004878048780488
+    },
+    "top_features": [
+        {
+            "feature": "atr_pct",
+            "importance_gain": 102710.49868735159,
+            "importance_split": 473
+        },
+        {
+            "feature": "india_vix_level",
+            "importance_gain": 26414.649348974228,
+            "importance_split": 944
+        },
+        {
+            "feature": "daily_hl_pct",
+            "importance_gain": 23334.892516251046,
+            "importance_split": 406
+        },
+        {
+            "feature": "nifty_ret_1d",
+            "importance_gain": 22376.581012671337,
+            "importance_split": 975
+        },
+        {
+            "feature": "india_vix_change_1d",
+            "importance_gain": 14665.453464329243,
+            "importance_split": 780
+        },
+        {
+            "feature": "nifty_ret_5d",
+            "importance_gain": 13889.024813476353,
+            "importance_split": 711
+        },
+        {
+            "feature": "nifty_ret_20d",
+            "importance_gain": 13532.260327339172,
+            "importance_split": 672
+        },
+        {
+            "feature": "nifty_trend",
+            "importance_gain": 12948.20355272293,
+            "importance_split": 603
+        },
+        {
+            "feature": "india_vix_change_5d",
+            "importance_gain": 11551.538892774443,
+            "importance_split": 635
+        },
+        {
+            "feature": "vol_20d",
+            "importance_gain": 10122.823988705873,
+            "importance_split": 274
+        },
+        {
+            "feature": "vol_to_sma20",
+            "importance_gain": 6480.095147013664,
+            "importance_split": 296
+        },
+        {
+            "feature": "gap_pct",
+            "importance_gain": 3920.921247516835,
+            "importance_split": 330
+        },
+        {
+            "feature": "vol_10d",
+            "importance_gain": 3885.8331146425016,
+            "importance_split": 244
+        },
+        {
+            "feature": "ret_3d",
+            "importance_gain": 3301.0215380349873,
+            "importance_split": 251
+        },
+        {
+            "feature": "bb_width",
+            "importance_gain": 3271.890697723836,
+            "importance_split": 279
+        },
+        {
+            "feature": "close_location",
+            "importance_gain": 3260.008191919822,
+            "importance_split": 243
+        },
+        {
+            "feature": "vol_trend_5_20",
+            "importance_gain": 3195.071279525757,
+            "importance_split": 270
+        },
+        {
+            "feature": "vol_to_sma5",
+            "importance_gain": 3013.751727862237,
+            "importance_split": 254
+        },
+        {
+            "feature": "vol_pct_change",
+            "importance_gain": 2915.1814763844013,
+            "importance_split": 245
+        },
+        {
+            "feature": "nifty_it_ret_1d",
+            "importance_gain": 2704.74853181839,
+            "importance_split": 180
+        }
+    ]
+}

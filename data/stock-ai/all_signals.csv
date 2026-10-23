@@ -1,0 +1,6 @@
+signal_date,ticker,today_close,model_score,ATR,breakout_trigger,stop_loss,profit_target,RSI,volume_ratio,return_1d,return_5d,Nifty_trend,sector_trend,model_version,strategy_version,status,execution_price,exit_price,net_pnl_pct
+2026-09-03,VEDL.NS,270.5,0.4823,8.16,271.18,261.39,276.6,46.4,0.46,-0.07%,-3.74%,-1.37%,+0.10% (NIFTY),v1,breakout_v1,PENDING,,,
+2026-09-03,HCLTECH.NS,1319.0,0.4191,32.97,1322.3,1282.73,1348.75,51.9,0.82,-0.94%,+2.89%,-1.37%,-0.09% (^CNXIT),v1,breakout_v1,PENDING,,,
+2026-09-03,MARUTI.NS,12857.0,0.4112,253.57,12889.14,12584.86,13146.92,29.2,1.13,+0.06%,-4.34%,-1.37%,-2.66% (^CNXAUTO),v1,breakout_v1,PENDING,,,
+2026-09-03,TECHM.NS,1598.0,0.4081,36.35,1601.99,1558.36,1634.03,49.5,0.67,-1.54%,+0.82%,-1.37%,-0.69% (^CNXIT),v1,breakout_v1,PENDING,,,
+2026-09-03,HAL.NS,4765.6,0.4009,95.05,4777.51,4663.45,4873.06,44.7,0.45,-0.30%,-2.72%,-1.37%,-0.13% (NIFTY),v1,breakout_v1,PENDING,,,

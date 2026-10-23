@@ -1,0 +1,13 @@
+{
+  "snapshotDate": "2026-10-01",
+  "sources": [
+    {
+      "path": "data/nse-equities.csv",
+      "url": "https://nsearchives.nseindia.com/content/equities/EQUITY_L.csv"
+    },
+    {
+      "path": "data/nse-sme-equities.csv",
+      "url": "https://nsearchives.nseindia.com/emerge/corporates/content/SME_EQUITY_L.csv"
+    }
+  ]
+}

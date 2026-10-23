@@ -1,0 +1,39 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".next-dashboard-production/types/**/*.ts",
+    ".next-framework-check/types/**/*.ts",
+    ".next-research-final/types/**/*.ts",
+    ".next-research-preview/types/**/*.ts",
+    ".next-small-cap-verify/types/**/*.ts",
+    ".next/types/**/*.ts",
+    "next-env.d.ts",
+    ".next-backend-migration/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "mobile",
+    "stock-ai/runs",
+    "scratch",
+    "tests"
+  ]
+}

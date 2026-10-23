@@ -1,0 +1,1376 @@
+[
+  {
+    "ticker": "HDFCBANK.NS",
+    "name": "HDFC Bank Limited",
+    "asOf": "2026-09-23T04:48:44.000Z",
+    "status": "Current-session quote",
+    "reference": 740.8,
+    "target": 755.62,
+    "estimate": null,
+    "evidenceCount": 4,
+    "summary": "4 of 4 observable momentum conditions support this setup. These conditions rank shares for investigation; they have not been calibrated into a chance of a 2% return.",
+    "positives": [
+      "Price is above the session open, indicating positive intraday direction.",
+      "Price is above the volume-weighted average of available 5-minute bars.",
+      "Price is above the previous close.",
+      "Price is within 0.5% of the reported session high."
+    ],
+    "risks": [
+      "No validated probability model is available for a 2% gain from this intraday quote. Signal count is not a probability.",
+      "Quotes may be delayed. The target is 2% above the displayed quote before costs; it is not an execution price or guaranteed return.",
+      "311 minutes remain in the provider-reported regular session. Momentum can reverse before the target is reached."
+    ],
+    "catalyst": null,
+    "metrics": [
+      {
+        "label": "Move from previous close",
+        "value": "0.30%"
+      },
+      {
+        "label": "Session open",
+        "value": "₹737.35"
+      },
+      {
+        "label": "Session high / low",
+        "value": "₹740.90 / ₹734.00"
+      },
+      {
+        "label": "Approximate VWAP",
+        "value": "₹737.09"
+      },
+      {
+        "label": "Quote age",
+        "value": "0 minutes"
+      },
+      {
+        "label": "Time remaining",
+        "value": "311 minutes"
+      }
+    ],
+    "liquidityAudit": {
+      "isLiquid": true,
+      "status": "VERIFIED_LIQUID",
+      "label": "🛡️ Institutional Liquid (₹1538 Cr)",
+      "badgeColor": "emerald",
+      "warnings": [],
+      "medianTurnoverCr": 1537.6,
+      "avgVolume": 26170381,
+      "isPennyStock": false,
+      "circuitRiskPct": 0.3
+    },
+    "quote": {
+      "ticker": "HDFCBANK.NS",
+      "name": "HDFC Bank Limited",
+      "price": 740.8,
+      "timestamp": 1790138924,
+      "previousClose": 738.6,
+      "open": 737.3499755859375,
+      "high": 740.9,
+      "low": 734,
+      "vwap": 737.0867162334566,
+      "sessionStart": 1790135100,
+      "sessionEnd": 1790157600
+    },
+    "fetchedAt": "2026-09-23T04:48:45.745Z",
+    "changePct": 0.29786081776332907,
+    "fromOpenPct": 0.4678951011452659,
+    "vwapGapPct": 0.50377841368765,
+    "sessionValueCrore": 395.98553881412965,
+    "sessionVolume": 5372306,
+    "opening30High": 739.4000244140625,
+    "lastCompletedBar": {
+      "timestamp": 1790138400,
+      "open": 738.7999877929688,
+      "high": 740.4000244140625,
+      "low": 738.5499877929688,
+      "close": 740.2000122070312,
+      "volume": 430813
+    },
+    "illustrativeBreakout": 741.65,
+    "illustrativeTarget": 756.48,
+    "illustrativeStop": 726.82,
+    "momentumEligible": true,
+    "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/HDFCBANK.NS?interval=5m&range=1d"
+  },
+  {
+    "ticker": "BAJFINANCE.NS",
+    "name": "Bajaj Finance Limited",
+    "asOf": "2026-09-23T04:48:36.000Z",
+    "status": "Current-session quote",
+    "reference": 1035.9,
+    "target": 1056.62,
+    "estimate": null,
+    "evidenceCount": 4,
+    "summary": "4 of 4 observable momentum conditions support this setup. These conditions rank shares for investigation; they have not been calibrated into a chance of a 2% return.",
+    "positives": [
+      "Price is above the session open, indicating positive intraday direction.",
+      "Price is above the volume-weighted average of available 5-minute bars.",
+      "Price is above the previous close.",
+      "Price is within 0.5% of the reported session high."
+    ],
+    "risks": [
+      "No validated probability model is available for a 2% gain from this intraday quote. Signal count is not a probability.",
+      "Quotes may be delayed. The target is 2% above the displayed quote before costs; it is not an execution price or guaranteed return.",
+      "311 minutes remain in the provider-reported regular session. Momentum can reverse before the target is reached."
+    ],
+    "catalyst": null,
+    "metrics": [
+      {
+        "label": "Move from previous close",
+        "value": "2.69%"
+      },
+      {
+        "label": "Session open",
+        "value": "₹1030.10"
+      },
+      {
+        "label": "Session high / low",
+        "value": "₹1040.90 / ₹1022.00"
+      },
+      {
+        "label": "Approximate VWAP",
+        "value": "₹1032.21"
+      },
+      {
+        "label": "Quote age",
+        "value": "0 minutes"
+      },
+      {
+        "label": "Time remaining",
+        "value": "311 minutes"
+      }
+    ],
+    "liquidityAudit": {
+      "isLiquid": true,
+      "status": "VERIFIED_LIQUID",
+      "label": "🛡️ Institutional Liquid (₹480 Cr)",
+      "badgeColor": "emerald",
+      "warnings": [],
+      "medianTurnoverCr": 479.8,
+      "avgVolume": 4643939,
+      "isPennyStock": false,
+      "circuitRiskPct": 0.3
+    },
+    "quote": {
+      "ticker": "BAJFINANCE.NS",
+      "name": "Bajaj Finance Limited",
+      "price": 1035.9,
+      "timestamp": 1790138916,
+      "previousClose": 1008.8,
+      "open": 1030.0999755859375,
+      "high": 1040.9,
+      "low": 1022,
+      "vwap": 1032.2073690061504,
+      "sessionStart": 1790135100,
+      "sessionEnd": 1790157600
+    },
+    "fetchedAt": "2026-09-23T04:48:45.788Z",
+    "changePct": 2.686360031720869,
+    "fromOpenPct": 0.563054514273098,
+    "vwapGapPct": 0.3577411966555699,
+    "sessionValueCrore": 337.99929638243407,
+    "sessionVolume": 3274529,
+    "opening30High": 1033.199951171875,
+    "lastCompletedBar": {
+      "timestamp": 1790138400,
+      "open": 1036.5999755859375,
+      "high": 1040.800048828125,
+      "low": 1034,
+      "close": 1035.9000244140625,
+      "volume": 493053
+    },
+    "illustrativeBreakout": 1041.95,
+    "illustrativeTarget": 1062.79,
+    "illustrativeStop": 1021.11,
+    "momentumEligible": true,
+    "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/BAJFINANCE.NS?interval=5m&range=1d"
+  },
+  {
+    "ticker": "RELIANCE.NS",
+    "name": "Reliance Industries Limited",
+    "asOf": "2026-09-23T04:48:32.000Z",
+    "status": "Current-session quote",
+    "reference": 1244.9,
+    "target": 1269.8,
+    "estimate": null,
+    "evidenceCount": 4,
+    "summary": "4 of 4 observable momentum conditions support this setup. These conditions rank shares for investigation; they have not been calibrated into a chance of a 2% return.",
+    "positives": [
+      "Price is above the session open, indicating positive intraday direction.",
+      "Price is above the volume-weighted average of available 5-minute bars.",
+      "Price is above the previous close.",
+      "Price is within 0.5% of the reported session high."
+    ],
+    "risks": [
+      "No validated probability model is available for a 2% gain from this intraday quote. Signal count is not a probability.",
+      "Quotes may be delayed. The target is 2% above the displayed quote before costs; it is not an execution price or guaranteed return.",
+      "311 minutes remain in the provider-reported regular session. Momentum can reverse before the target is reached."
+    ],
+    "catalyst": null,
+    "metrics": [
+      {
+        "label": "Move from previous close",
+        "value": "0.36%"
+      },
+      {
+        "label": "Session open",
+        "value": "₹1244.70"
+      },
+      {
+        "label": "Session high / low",
+        "value": "₹1246.00 / ₹1238.90"
+      },
+      {
+        "label": "Approximate VWAP",
+        "value": "₹1243.08"
+      },
+      {
+        "label": "Quote age",
+        "value": "0 minutes"
+      },
+      {
+        "label": "Time remaining",
+        "value": "311 minutes"
+      }
+    ],
+    "liquidityAudit": {
+      "isLiquid": true,
+      "status": "VERIFIED_LIQUID",
+      "label": "🛡️ Institutional Liquid (₹1292 Cr)",
+      "badgeColor": "emerald",
+      "warnings": [],
+      "medianTurnoverCr": 1292,
+      "avgVolume": 10598621,
+      "isPennyStock": false,
+      "circuitRiskPct": 0.3
+    },
+    "quote": {
+      "ticker": "RELIANCE.NS",
+      "name": "Reliance Industries Limited",
+      "price": 1244.9,
+      "timestamp": 1790138912,
+      "previousClose": 1240.4,
+      "open": 1244.699951171875,
+      "high": 1246,
+      "low": 1238.9,
+      "vwap": 1243.0772714654183,
+      "sessionStart": 1790135100,
+      "sessionEnd": 1790157600
+    },
+    "fetchedAt": "2026-09-23T04:48:45.838Z",
+    "changePct": 0.36278619800065304,
+    "fromOpenPct": 0.01607205237992293,
+    "vwapGapPct": 0.1466303484443099,
+    "sessionValueCrore": 148.14485259643556,
+    "sessionVolume": 1191759,
+    "opening30High": 1246,
+    "lastCompletedBar": {
+      "timestamp": 1790138400,
+      "open": 1241.4000244140625,
+      "high": 1241.4000244140625,
+      "low": 1239.199951171875,
+      "close": 1240.5,
+      "volume": 163660
+    },
+    "illustrativeBreakout": 1247.25,
+    "illustrativeTarget": 1272.2,
+    "illustrativeStop": 1222.31,
+    "momentumEligible": true,
+    "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/RELIANCE.NS?interval=5m&range=1d"
+  },
+  {
+    "ticker": "SAIL.NS",
+    "name": "Steel Authority of India Limited",
+    "asOf": "2026-09-23T04:48:39.000Z",
+    "status": "Current-session quote",
+    "reference": 178.75,
+    "target": 182.33,
+    "estimate": null,
+    "evidenceCount": 4,
+    "summary": "4 of 4 observable momentum conditions support this setup. These conditions rank shares for investigation; they have not been calibrated into a chance of a 2% return.",
+    "positives": [
+      "Price is above the session open, indicating positive intraday direction.",
+      "Price is above the volume-weighted average of available 5-minute bars.",
+      "Price is above the previous close.",
+      "Price is within 0.5% of the reported session high."
+    ],
+    "risks": [
+      "No validated probability model is available for a 2% gain from this intraday quote. Signal count is not a probability.",
+      "Quotes may be delayed. The target is 2% above the displayed quote before costs; it is not an execution price or guaranteed return.",
+      "311 minutes remain in the provider-reported regular session. Momentum can reverse before the target is reached."
+    ],
+    "catalyst": null,
+    "metrics": [
+      {
+        "label": "Move from previous close",
+        "value": "2.72%"
+      },
+      {
+        "label": "Session open",
+        "value": "₹175.50"
+      },
+      {
+        "label": "Session high / low",
+        "value": "₹179.07 / ₹174.50"
+      },
+      {
+        "label": "Approximate VWAP",
+        "value": "₹177.81"
+      },
+      {
+        "label": "Quote age",
+        "value": "0 minutes"
+      },
+      {
+        "label": "Time remaining",
+        "value": "311 minutes"
+      }
+    ],
+    "liquidityAudit": {
+      "isLiquid": true,
+      "status": "VERIFIED_LIQUID",
+      "label": "🛡️ Liquid Equity",
+      "badgeColor": "emerald",
+      "warnings": [],
+      "isPennyStock": false
+    },
+    "quote": {
+      "ticker": "SAIL.NS",
+      "name": "Steel Authority of India Limited",
+      "price": 178.75,
+      "timestamp": 1790138919,
+      "previousClose": 174.01,
+      "open": 175.5,
+      "high": 179.07,
+      "low": 174.5,
+      "vwap": 177.80712410814508,
+      "sessionStart": 1790135100,
+      "sessionEnd": 1790157600
+    },
+    "fetchedAt": "2026-09-23T04:48:45.883Z",
+    "changePct": 2.723981380380436,
+    "fromOpenPct": 1.85185185185186,
+    "vwapGapPct": 0.5302801541750668,
+    "sessionValueCrore": 105.47467038029176,
+    "sessionVolume": 5931971,
+    "opening30High": 178.39999389648438,
+    "lastCompletedBar": {
+      "timestamp": 1790138400,
+      "open": 178.27000427246094,
+      "high": 178.88999938964844,
+      "low": 178.14999389648438,
+      "close": 178.6999969482422,
+      "volume": 315219
+    },
+    "illustrativeBreakout": 179.25,
+    "illustrativeTarget": 182.84,
+    "illustrativeStop": 175.67,
+    "momentumEligible": true,
+    "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/SAIL.NS?interval=5m&range=1d"
+  },
+  {
+    "ticker": "TATASTEEL.NS",
+    "name": "Tata Steel Limited",
+    "asOf": "2026-09-23T04:48:45.000Z",
+    "status": "Current-session quote",
+    "reference": 187,
+    "target": 190.74,
+    "estimate": null,
+    "evidenceCount": 4,
+    "summary": "4 of 4 observable momentum conditions support this setup. These conditions rank shares for investigation; they have not been calibrated into a chance of a 2% return.",
+    "positives": [
+      "Price is above the session open, indicating positive intraday direction.",
+      "Price is above the volume-weighted average of available 5-minute bars.",
+      "Price is above the previous close.",
+      "Price is within 0.5% of the reported session high."
+    ],
+    "risks": [
+      "No validated probability model is available for a 2% gain from this intraday quote. Signal count is not a probability.",
+      "Quotes may be delayed. The target is 2% above the displayed quote before costs; it is not an execution price or guaranteed return.",
+      "311 minutes remain in the provider-reported regular session. Momentum can reverse before the target is reached."
+    ],
+    "catalyst": null,
+    "metrics": [
+      {
+        "label": "Move from previous close",
+        "value": "1.10%"
+      },
+      {
+        "label": "Session open",
+        "value": "₹185.30"
+      },
+      {
+        "label": "Session high / low",
+        "value": "₹187.56 / ₹184.87"
+      },
+      {
+        "label": "Approximate VWAP",
+        "value": "₹186.85"
+      },
+      {
+        "label": "Quote age",
+        "value": "0 minutes"
+      },
+      {
+        "label": "Time remaining",
+        "value": "311 minutes"
+      }
+    ],
+    "liquidityAudit": {
+      "isLiquid": true,
+      "status": "VERIFIED_LIQUID",
+      "label": "🛡️ Institutional Liquid (₹450 Cr)",
+      "badgeColor": "emerald",
+      "warnings": [],
+      "medianTurnoverCr": 449.6,
+      "avgVolume": 27339328,
+      "isPennyStock": false,
+      "circuitRiskPct": 0.3
+    },
+    "quote": {
+      "ticker": "TATASTEEL.NS",
+      "name": "Tata Steel Limited",
+      "price": 187,
+      "timestamp": 1790138925,
+      "previousClose": 184.97,
+      "open": 185.3000030517578,
+      "high": 187.56,
+      "low": 184.87,
+      "vwap": 186.84688522189666,
+      "sessionStart": 1790135100,
+      "sessionEnd": 1790157600
+    },
+    "fetchedAt": "2026-09-23T04:48:46.011Z",
+    "changePct": 1.0974752662593845,
+    "fromOpenPct": 0.9174295306230151,
+    "vwapGapPct": 0.08194665804650558,
+    "sessionValueCrore": 104.03699965565033,
+    "sessionVolume": 5568035,
+    "opening30High": 187.5,
+    "lastCompletedBar": {
+      "timestamp": 1790138400,
+      "open": 187.02000427246094,
+      "high": 187.05999755859375,
+      "low": 186.77000427246094,
+      "close": 186.99000549316406,
+      "volume": 146906
+    },
+    "illustrativeBreakout": 187.75,
+    "illustrativeTarget": 191.51,
+    "illustrativeStop": 184,
+    "momentumEligible": true,
+    "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/TATASTEEL.NS?interval=5m&range=1d"
+  },
+  {
+    "ticker": "RADICO.NS",
+    "name": "Radico Khaitan Limited",
+    "asOf": "2026-09-23T04:48:42.000Z",
+    "status": "Current-session quote",
+    "reference": 4603,
+    "target": 4695.06,
+    "estimate": null,
+    "evidenceCount": 4,
+    "summary": "4 of 4 observable momentum conditions support this setup. These conditions rank shares for investigation; they have not been calibrated into a chance of a 2% return.",
+    "positives": [
+      "Price is above the session open, indicating positive intraday direction.",
+      "Price is above the volume-weighted average of available 5-minute bars.",
+      "Price is above the previous close.",
+      "Price is within 0.5% of the reported session high."
+    ],
+    "risks": [
+      "No validated probability model is available for a 2% gain from this intraday quote. Signal count is not a probability.",
+      "Quotes may be delayed. The target is 2% above the displayed quote before costs; it is not an execution price or guaranteed return.",
+      "311 minutes remain in the provider-reported regular session. Momentum can reverse before the target is reached."
+    ],
+    "catalyst": null,
+    "metrics": [
+      {
+        "label": "Move from previous close",
+        "value": "3.47%"
+      },
+      {
+        "label": "Session open",
+        "value": "₹4470.00"
+      },
+      {
+        "label": "Session high / low",
+        "value": "₹4614.10 / ₹4450.40"
+      },
+      {
+        "label": "Approximate VWAP",
+        "value": "₹4584.51"
+      },
+      {
+        "label": "Quote age",
+        "value": "0 minutes"
+      },
+      {
+        "label": "Time remaining",
+        "value": "311 minutes"
+      }
+    ],
+    "liquidityAudit": {
+      "isLiquid": true,
+      "status": "VERIFIED_LIQUID",
+      "label": "🛡️ Liquid Equity",
+      "badgeColor": "emerald",
+      "warnings": [],
+      "isPennyStock": false
+    },
+    "quote": {
+      "ticker": "RADICO.NS",
+      "name": "Radico Khaitan Limited",
+      "price": 4603,
+      "timestamp": 1790138922,
+      "previousClose": 4448.8,
+      "open": 4470,
+      "high": 4614.1,
+      "low": 4450.4,
+      "vwap": 4584.505564012629,
+      "sessionStart": 1790135100,
+      "sessionEnd": 1790157600
+    },
+    "fetchedAt": "2026-09-23T04:48:46.121Z",
+    "changePct": 3.4661032188455287,
+    "fromOpenPct": 2.975391498881441,
+    "vwapGapPct": 0.403411790631214,
+    "sessionValueCrore": 102.59206551147462,
+    "sessionVolume": 223780,
+    "opening30High": 4594,
+    "lastCompletedBar": {
+      "timestamp": 1790138400,
+      "open": 4600,
+      "high": 4607.89990234375,
+      "low": 4595.2001953125,
+      "close": 4599.89990234375,
+      "volume": 12057
+    },
+    "illustrativeBreakout": 4618.72,
+    "illustrativeTarget": 4711.09,
+    "illustrativeStop": 4526.35,
+    "momentumEligible": true,
+    "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/RADICO.NS?interval=5m&range=1d"
+  },
+  {
+    "ticker": "HINDALCO.NS",
+    "name": "Hindalco Industries Limited",
+    "asOf": "2026-09-23T04:48:38.000Z",
+    "status": "Current-session quote",
+    "reference": 985.1,
+    "target": 1004.8,
+    "estimate": null,
+    "evidenceCount": 4,
+    "summary": "4 of 4 observable momentum conditions support this setup. These conditions rank shares for investigation; they have not been calibrated into a chance of a 2% return.",
+    "positives": [
+      "Price is above the session open, indicating positive intraday direction.",
+      "Price is above the volume-weighted average of available 5-minute bars.",
+      "Price is above the previous close.",
+      "Price is within 0.5% of the reported session high."
+    ],
+    "risks": [
+      "No validated probability model is available for a 2% gain from this intraday quote. Signal count is not a probability.",
+      "Quotes may be delayed. The target is 2% above the displayed quote before costs; it is not an execution price or guaranteed return.",
+      "311 minutes remain in the provider-reported regular session. Momentum can reverse before the target is reached."
+    ],
+    "catalyst": null,
+    "metrics": [
+      {
+        "label": "Move from previous close",
+        "value": "1.24%"
+      },
+      {
+        "label": "Session open",
+        "value": "₹982.60"
+      },
+      {
+        "label": "Session high / low",
+        "value": "₹987.60 / ₹978.20"
+      },
+      {
+        "label": "Approximate VWAP",
+        "value": "₹984.06"
+      },
+      {
+        "label": "Quote age",
+        "value": "0 minutes"
+      },
+      {
+        "label": "Time remaining",
+        "value": "311 minutes"
+      }
+    ],
+    "liquidityAudit": {
+      "isLiquid": true,
+      "status": "VERIFIED_LIQUID",
+      "label": "🛡️ Institutional Liquid (₹360 Cr)",
+      "badgeColor": "emerald",
+      "warnings": [],
+      "medianTurnoverCr": 359.9,
+      "avgVolume": 3724512,
+      "isPennyStock": false,
+      "circuitRiskPct": 0.3
+    },
+    "quote": {
+      "ticker": "HINDALCO.NS",
+      "name": "Hindalco Industries Limited",
+      "price": 985.1,
+      "timestamp": 1790138918,
+      "previousClose": 973,
+      "open": 982.5999755859375,
+      "high": 987.6,
+      "low": 978.2,
+      "vwap": 984.0580167660752,
+      "sessionStart": 1790135100,
+      "sessionEnd": 1790157600
+    },
+    "fetchedAt": "2026-09-23T04:48:46.234Z",
+    "changePct": 1.2435765673175725,
+    "fromOpenPct": 0.2544295212883352,
+    "vwapGapPct": 0.10588636200019597,
+    "sessionValueCrore": 101.77895574647827,
+    "sessionVolume": 1034278,
+    "opening30High": 987.4000244140625,
+    "lastCompletedBar": {
+      "timestamp": 1790138400,
+      "open": 982.2999877929688,
+      "high": 983.4000244140625,
+      "low": 981.5999755859375,
+      "close": 983,
+      "volume": 27713
+    },
+    "illustrativeBreakout": 988.59,
+    "illustrativeTarget": 1008.36,
+    "illustrativeStop": 968.82,
+    "momentumEligible": true,
+    "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/HINDALCO.NS?interval=5m&range=1d"
+  },
+  {
+    "ticker": "SBIN.NS",
+    "name": "State Bank of India",
+    "asOf": "2026-09-23T04:48:38.000Z",
+    "status": "Current-session quote",
+    "reference": 989.8,
+    "target": 1009.6,
+    "estimate": null,
+    "evidenceCount": 4,
+    "summary": "4 of 4 observable momentum conditions support this setup. These conditions rank shares for investigation; they have not been calibrated into a chance of a 2% return.",
+    "positives": [
+      "Price is above the session open, indicating positive intraday direction.",
+      "Price is above the volume-weighted average of available 5-minute bars.",
+      "Price is above the previous close.",
+      "Price is within 0.5% of the reported session high."
+    ],
+    "risks": [
+      "No validated probability model is available for a 2% gain from this intraday quote. Signal count is not a probability.",
+      "Quotes may be delayed. The target is 2% above the displayed quote before costs; it is not an execution price or guaranteed return.",
+      "311 minutes remain in the provider-reported regular session. Momentum can reverse before the target is reached."
+    ],
+    "catalyst": null,
+    "metrics": [
+      {
+        "label": "Move from previous close",
+        "value": "0.28%"
+      },
+      {
+        "label": "Session open",
+        "value": "₹989.00"
+      },
+      {
+        "label": "Session high / low",
+        "value": "₹991.70 / ₹986.40"
+      },
+      {
+        "label": "Approximate VWAP",
+        "value": "₹989.79"
+      },
+      {
+        "label": "Quote age",
+        "value": "0 minutes"
+      },
+      {
+        "label": "Time remaining",
+        "value": "311 minutes"
+      }
+    ],
+    "liquidityAudit": {
+      "isLiquid": true,
+      "status": "VERIFIED_LIQUID",
+      "label": "🛡️ Institutional Liquid (₹750 Cr)",
+      "badgeColor": "emerald",
+      "warnings": [],
+      "medianTurnoverCr": 750.1,
+      "avgVolume": 8024889,
+      "isPennyStock": false,
+      "circuitRiskPct": 0.3
+    },
+    "quote": {
+      "ticker": "SBIN.NS",
+      "name": "State Bank of India",
+      "price": 989.8,
+      "timestamp": 1790138918,
+      "previousClose": 987,
+      "open": 989,
+      "high": 991.7,
+      "low": 986.4,
+      "vwap": 989.7939118767624,
+      "sessionStart": 1790135100,
+      "sessionEnd": 1790157600
+    },
+    "fetchedAt": "2026-09-23T04:48:46.282Z",
+    "changePct": 0.28368794326241176,
+    "fromOpenPct": 0.08088978766429555,
+    "vwapGapPct": 0.0006150899863666126,
+    "sessionValueCrore": 88.58457552514649,
+    "sessionVolume": 894980,
+    "opening30High": 991.5999755859375,
+    "lastCompletedBar": {
+      "timestamp": 1790138400,
+      "open": 989,
+      "high": 989.2000122070312,
+      "low": 988.5999755859375,
+      "close": 989,
+      "volume": 55193
+    },
+    "illustrativeBreakout": 992.7,
+    "illustrativeTarget": 1012.55,
+    "illustrativeStop": 972.85,
+    "momentumEligible": true,
+    "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/SBIN.NS?interval=5m&range=1d"
+  },
+  {
+    "ticker": "VEDL.NS",
+    "name": "Vedanta Limited",
+    "asOf": "2026-09-23T04:48:38.000Z",
+    "status": "Current-session quote",
+    "reference": 267.75,
+    "target": 273.11,
+    "estimate": null,
+    "evidenceCount": 4,
+    "summary": "4 of 4 observable momentum conditions support this setup. These conditions rank shares for investigation; they have not been calibrated into a chance of a 2% return.",
+    "positives": [
+      "Price is above the session open, indicating positive intraday direction.",
+      "Price is above the volume-weighted average of available 5-minute bars.",
+      "Price is above the previous close.",
+      "Price is within 0.5% of the reported session high."
+    ],
+    "risks": [
+      "No validated probability model is available for a 2% gain from this intraday quote. Signal count is not a probability.",
+      "Quotes may be delayed. The target is 2% above the displayed quote before costs; it is not an execution price or guaranteed return.",
+      "311 minutes remain in the provider-reported regular session. Momentum can reverse before the target is reached."
+    ],
+    "catalyst": null,
+    "metrics": [
+      {
+        "label": "Move from previous close",
+        "value": "1.81%"
+      },
+      {
+        "label": "Session open",
+        "value": "₹263.05"
+      },
+      {
+        "label": "Session high / low",
+        "value": "₹268.80 / ₹262.20"
+      },
+      {
+        "label": "Approximate VWAP",
+        "value": "₹267.37"
+      },
+      {
+        "label": "Quote age",
+        "value": "0 minutes"
+      },
+      {
+        "label": "Time remaining",
+        "value": "311 minutes"
+      }
+    ],
+    "liquidityAudit": {
+      "isLiquid": true,
+      "status": "VERIFIED_LIQUID",
+      "label": "🛡️ Institutional Liquid (₹257 Cr)",
+      "badgeColor": "emerald",
+      "warnings": [],
+      "medianTurnoverCr": 257.2,
+      "avgVolume": 11635588,
+      "isPennyStock": false,
+      "circuitRiskPct": 0.3
+    },
+    "quote": {
+      "ticker": "VEDL.NS",
+      "name": "Vedanta Limited",
+      "price": 267.75,
+      "timestamp": 1790138918,
+      "previousClose": 263,
+      "open": 263.04998779296875,
+      "high": 268.8,
+      "low": 262.2,
+      "vwap": 267.3698631556536,
+      "sessionStart": 1790135100,
+      "sessionEnd": 1790157600
+    },
+    "fetchedAt": "2026-09-23T04:48:46.327Z",
+    "changePct": 1.8060836501901045,
+    "fromOpenPct": 1.7867372838391349,
+    "vwapGapPct": 0.14217639933677972,
+    "sessionValueCrore": 85.55953263720703,
+    "sessionVolume": 3200044,
+    "opening30High": 268.79998779296875,
+    "lastCompletedBar": {
+      "timestamp": 1790138400,
+      "open": 267.54998779296875,
+      "high": 267.79998779296875,
+      "low": 267.29998779296875,
+      "close": 267.6499938964844,
+      "volume": 66572
+    },
+    "illustrativeBreakout": 269.07,
+    "illustrativeTarget": 274.45,
+    "illustrativeStop": 263.69,
+    "momentumEligible": true,
+    "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/VEDL.NS?interval=5m&range=1d"
+  },
+  {
+    "ticker": "IDFCFIRSTB.NS",
+    "name": "IDFC First Bank Limited",
+    "asOf": "2026-09-23T04:48:44.000Z",
+    "status": "Current-session quote",
+    "reference": 87.67,
+    "target": 89.42,
+    "estimate": null,
+    "evidenceCount": 4,
+    "summary": "4 of 4 observable momentum conditions support this setup. These conditions rank shares for investigation; they have not been calibrated into a chance of a 2% return.",
+    "positives": [
+      "Price is above the session open, indicating positive intraday direction.",
+      "Price is above the volume-weighted average of available 5-minute bars.",
+      "Price is above the previous close.",
+      "Price is within 0.5% of the reported session high."
+    ],
+    "risks": [
+      "No validated probability model is available for a 2% gain from this intraday quote. Signal count is not a probability.",
+      "Quotes may be delayed. The target is 2% above the displayed quote before costs; it is not an execution price or guaranteed return.",
+      "311 minutes remain in the provider-reported regular session. Momentum can reverse before the target is reached."
+    ],
+    "catalyst": null,
+    "metrics": [
+      {
+        "label": "Move from previous close",
+        "value": "2.69%"
+      },
+      {
+        "label": "Session open",
+        "value": "₹86.00"
+      },
+      {
+        "label": "Session high / low",
+        "value": "₹87.75 / ₹85.90"
+      },
+      {
+        "label": "Approximate VWAP",
+        "value": "₹87.14"
+      },
+      {
+        "label": "Quote age",
+        "value": "0 minutes"
+      },
+      {
+        "label": "Time remaining",
+        "value": "311 minutes"
+      }
+    ],
+    "liquidityAudit": {
+      "isLiquid": true,
+      "status": "VERIFIED_LIQUID",
+      "label": "🛡️ Liquid Equity",
+      "badgeColor": "emerald",
+      "warnings": [],
+      "isPennyStock": false
+    },
+    "quote": {
+      "ticker": "IDFCFIRSTB.NS",
+      "name": "IDFC First Bank Limited",
+      "price": 87.67,
+      "timestamp": 1790138924,
+      "previousClose": 85.37,
+      "open": 86,
+      "high": 87.75,
+      "low": 85.9,
+      "vwap": 87.13654844021104,
+      "sessionStart": 1790135100,
+      "sessionEnd": 1790157600
+    },
+    "fetchedAt": "2026-09-23T04:48:46.440Z",
+    "changePct": 2.6941548553355954,
+    "fromOpenPct": 1.9418604651162852,
+    "vwapGapPct": 0.6122018479478575,
+    "sessionValueCrore": 78.92931378841476,
+    "sessionVolume": 9058118,
+    "opening30High": 86.91999816894531,
+    "lastCompletedBar": {
+      "timestamp": 1790138400,
+      "open": 87.66999816894531,
+      "high": 87.73999786376953,
+      "low": 87.52999877929688,
+      "close": 87.5999984741211,
+      "volume": 318848
+    },
+    "illustrativeBreakout": 87.84,
+    "illustrativeTarget": 89.6,
+    "illustrativeStop": 86.08,
+    "momentumEligible": true,
+    "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/IDFCFIRSTB.NS?interval=5m&range=1d"
+  },
+  {
+    "ticker": "KEI.NS",
+    "name": "KEI Industries Limited",
+    "asOf": "2026-09-23T04:48:40.000Z",
+    "status": "Current-session quote",
+    "reference": 4659,
+    "target": 4752.18,
+    "estimate": null,
+    "evidenceCount": 4,
+    "summary": "4 of 4 observable momentum conditions support this setup. These conditions rank shares for investigation; they have not been calibrated into a chance of a 2% return.",
+    "positives": [
+      "Price is above the session open, indicating positive intraday direction.",
+      "Price is above the volume-weighted average of available 5-minute bars.",
+      "Price is above the previous close.",
+      "Price is within 0.5% of the reported session high."
+    ],
+    "risks": [
+      "No validated probability model is available for a 2% gain from this intraday quote. Signal count is not a probability.",
+      "Quotes may be delayed. The target is 2% above the displayed quote before costs; it is not an execution price or guaranteed return.",
+      "311 minutes remain in the provider-reported regular session. Momentum can reverse before the target is reached."
+    ],
+    "catalyst": null,
+    "metrics": [
+      {
+        "label": "Move from previous close",
+        "value": "1.84%"
+      },
+      {
+        "label": "Session open",
+        "value": "₹4578.50"
+      },
+      {
+        "label": "Session high / low",
+        "value": "₹4670.00 / ₹4574.00"
+      },
+      {
+        "label": "Approximate VWAP",
+        "value": "₹4650.38"
+      },
+      {
+        "label": "Quote age",
+        "value": "0 minutes"
+      },
+      {
+        "label": "Time remaining",
+        "value": "311 minutes"
+      }
+    ],
+    "liquidityAudit": {
+      "isLiquid": true,
+      "status": "VERIFIED_LIQUID",
+      "label": "🛡️ Liquid Equity",
+      "badgeColor": "emerald",
+      "warnings": [],
+      "isPennyStock": false
+    },
+    "quote": {
+      "ticker": "KEI.NS",
+      "name": "KEI Industries Limited",
+      "price": 4659,
+      "timestamp": 1790138920,
+      "previousClose": 4575,
+      "open": 4578.5,
+      "high": 4670,
+      "low": 4574,
+      "vwap": 4650.384025447469,
+      "sessionStart": 1790135100,
+      "sessionEnd": 1790157600
+    },
+    "fetchedAt": "2026-09-23T04:48:46.485Z",
+    "changePct": 1.8360655737704956,
+    "fromOpenPct": 1.7582177569072766,
+    "vwapGapPct": 0.18527447422369558,
+    "sessionValueCrore": 77.1912594,
+    "sessionVolume": 165989,
+    "opening30High": 4670,
+    "lastCompletedBar": {
+      "timestamp": 1790138400,
+      "open": 4651.5,
+      "high": 4654.5,
+      "low": 4647,
+      "close": 4653.5,
+      "volume": 5050
+    },
+    "illustrativeBreakout": 4674.67,
+    "illustrativeTarget": 4768.16,
+    "illustrativeStop": 4581.18,
+    "momentumEligible": true,
+    "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/KEI.NS?interval=5m&range=1d"
+  },
+  {
+    "ticker": "BHARTIARTL.NS",
+    "name": "Bharti Airtel Limited",
+    "asOf": "2026-09-23T04:48:35.000Z",
+    "status": "Current-session quote",
+    "reference": 1823.6,
+    "target": 1860.07,
+    "estimate": null,
+    "evidenceCount": 4,
+    "summary": "4 of 4 observable momentum conditions support this setup. These conditions rank shares for investigation; they have not been calibrated into a chance of a 2% return.",
+    "positives": [
+      "Price is above the session open, indicating positive intraday direction.",
+      "Price is above the volume-weighted average of available 5-minute bars.",
+      "Price is above the previous close.",
+      "Price is within 0.5% of the reported session high."
+    ],
+    "risks": [
+      "No validated probability model is available for a 2% gain from this intraday quote. Signal count is not a probability.",
+      "Quotes may be delayed. The target is 2% above the displayed quote before costs; it is not an execution price or guaranteed return.",
+      "311 minutes remain in the provider-reported regular session. Momentum can reverse before the target is reached."
+    ],
+    "catalyst": null,
+    "metrics": [
+      {
+        "label": "Move from previous close",
+        "value": "0.35%"
+      },
+      {
+        "label": "Session open",
+        "value": "₹1822.20"
+      },
+      {
+        "label": "Session high / low",
+        "value": "₹1828.10 / ₹1818.00"
+      },
+      {
+        "label": "Approximate VWAP",
+        "value": "₹1821.84"
+      },
+      {
+        "label": "Quote age",
+        "value": "0 minutes"
+      },
+      {
+        "label": "Time remaining",
+        "value": "311 minutes"
+      }
+    ],
+    "liquidityAudit": {
+      "isLiquid": true,
+      "status": "VERIFIED_LIQUID",
+      "label": "🛡️ Institutional Liquid (₹1128 Cr)",
+      "badgeColor": "emerald",
+      "warnings": [],
+      "medianTurnoverCr": 1128.4,
+      "avgVolume": 6931421,
+      "isPennyStock": false,
+      "circuitRiskPct": 0.3
+    },
+    "quote": {
+      "ticker": "BHARTIARTL.NS",
+      "name": "Bharti Airtel Limited",
+      "price": 1823.6,
+      "timestamp": 1790138915,
+      "previousClose": 1817.2,
+      "open": 1822.199951171875,
+      "high": 1828.1,
+      "low": 1818,
+      "vwap": 1821.836987019134,
+      "sessionStart": 1790135100,
+      "sessionEnd": 1790157600
+    },
+    "fetchedAt": "2026-09-23T04:48:46.534Z",
+    "changePct": 0.3521901826986529,
+    "fromOpenPct": 0.0768328869301449,
+    "vwapGapPct": 0.09677117071547059,
+    "sessionValueCrore": 74.06496087027588,
+    "sessionVolume": 406540,
+    "opening30High": 1827.0999755859375,
+    "lastCompletedBar": {
+      "timestamp": 1790138400,
+      "open": 1822.0999755859375,
+      "high": 1822.300048828125,
+      "low": 1821.5,
+      "close": 1822.0999755859375,
+      "volume": 13535
+    },
+    "illustrativeBreakout": 1829.93,
+    "illustrativeTarget": 1866.53,
+    "illustrativeStop": 1793.33,
+    "momentumEligible": true,
+    "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/BHARTIARTL.NS?interval=5m&range=1d"
+  },
+  {
+    "ticker": "RBLBANK.NS",
+    "name": "RBL Bank Limited",
+    "asOf": "2026-09-23T04:48:45.000Z",
+    "status": "Current-session quote",
+    "reference": 428.5,
+    "target": 437.07,
+    "estimate": null,
+    "evidenceCount": 4,
+    "summary": "4 of 4 observable momentum conditions support this setup. These conditions rank shares for investigation; they have not been calibrated into a chance of a 2% return.",
+    "positives": [
+      "Price is above the session open, indicating positive intraday direction.",
+      "Price is above the volume-weighted average of available 5-minute bars.",
+      "Price is above the previous close.",
+      "Price is within 0.5% of the reported session high."
+    ],
+    "risks": [
+      "No validated probability model is available for a 2% gain from this intraday quote. Signal count is not a probability.",
+      "Quotes may be delayed. The target is 2% above the displayed quote before costs; it is not an execution price or guaranteed return.",
+      "311 minutes remain in the provider-reported regular session. Momentum can reverse before the target is reached."
+    ],
+    "catalyst": null,
+    "metrics": [
+      {
+        "label": "Move from previous close",
+        "value": "1.25%"
+      },
+      {
+        "label": "Session open",
+        "value": "₹425.45"
+      },
+      {
+        "label": "Session high / low",
+        "value": "₹429.00 / ₹422.05"
+      },
+      {
+        "label": "Approximate VWAP",
+        "value": "₹426.48"
+      },
+      {
+        "label": "Quote age",
+        "value": "0 minutes"
+      },
+      {
+        "label": "Time remaining",
+        "value": "311 minutes"
+      }
+    ],
+    "liquidityAudit": {
+      "isLiquid": true,
+      "status": "VERIFIED_LIQUID",
+      "label": "🛡️ Liquid Equity",
+      "badgeColor": "emerald",
+      "warnings": [],
+      "isPennyStock": false
+    },
+    "quote": {
+      "ticker": "RBLBANK.NS",
+      "name": "RBL Bank Limited",
+      "price": 428.5,
+      "timestamp": 1790138925,
+      "previousClose": 423.2,
+      "open": 425.45001220703125,
+      "high": 429,
+      "low": 422.05,
+      "vwap": 426.4825883526622,
+      "sessionStart": 1790135100,
+      "sessionEnd": 1790157600
+    },
+    "fetchedAt": "2026-09-23T04:48:46.644Z",
+    "changePct": 1.252362948960295,
+    "fromOpenPct": 0.7168851111666097,
+    "vwapGapPct": 0.4730349379866272,
+    "sessionValueCrore": 72.04766547032166,
+    "sessionVolume": 1689346,
+    "opening30High": 427.6499938964844,
+    "lastCompletedBar": {
+      "timestamp": 1790138400,
+      "open": 428.6499938964844,
+      "high": 428.8999938964844,
+      "low": 428.29998779296875,
+      "close": 428.5,
+      "volume": 32361
+    },
+    "illustrativeBreakout": 429.43,
+    "illustrativeTarget": 438.02,
+    "illustrativeStop": 420.84,
+    "momentumEligible": true,
+    "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/RBLBANK.NS?interval=5m&range=1d"
+  },
+  {
+    "ticker": "MOTILALOFS.NS",
+    "name": "Motilal Oswal Financial Services Limited",
+    "asOf": "2026-09-23T04:48:40.000Z",
+    "status": "Current-session quote",
+    "reference": 1047.9,
+    "target": 1068.86,
+    "estimate": null,
+    "evidenceCount": 4,
+    "summary": "4 of 4 observable momentum conditions support this setup. These conditions rank shares for investigation; they have not been calibrated into a chance of a 2% return.",
+    "positives": [
+      "Price is above the session open, indicating positive intraday direction.",
+      "Price is above the volume-weighted average of available 5-minute bars.",
+      "Price is above the previous close.",
+      "Price is within 0.5% of the reported session high."
+    ],
+    "risks": [
+      "No validated probability model is available for a 2% gain from this intraday quote. Signal count is not a probability.",
+      "Quotes may be delayed. The target is 2% above the displayed quote before costs; it is not an execution price or guaranteed return.",
+      "311 minutes remain in the provider-reported regular session. Momentum can reverse before the target is reached."
+    ],
+    "catalyst": null,
+    "metrics": [
+      {
+        "label": "Move from previous close",
+        "value": "4.06%"
+      },
+      {
+        "label": "Session open",
+        "value": "₹1015.40"
+      },
+      {
+        "label": "Session high / low",
+        "value": "₹1049.60 / ₹1009.20"
+      },
+      {
+        "label": "Approximate VWAP",
+        "value": "₹1040.76"
+      },
+      {
+        "label": "Quote age",
+        "value": "0 minutes"
+      },
+      {
+        "label": "Time remaining",
+        "value": "311 minutes"
+      }
+    ],
+    "liquidityAudit": {
+      "isLiquid": true,
+      "status": "VERIFIED_LIQUID",
+      "label": "🛡️ Liquid Equity",
+      "badgeColor": "emerald",
+      "warnings": [],
+      "isPennyStock": false
+    },
+    "quote": {
+      "ticker": "MOTILALOFS.NS",
+      "name": "Motilal Oswal Financial Services Limited",
+      "price": 1047.9,
+      "timestamp": 1790138920,
+      "previousClose": 1007,
+      "open": 1015.4000244140625,
+      "high": 1049.6,
+      "low": 1009.2,
+      "vwap": 1040.757985036548,
+      "sessionStart": 1790135100,
+      "sessionEnd": 1790157600
+    },
+    "fetchedAt": "2026-09-23T04:48:46.695Z",
+    "changePct": 4.061569016881839,
+    "fromOpenPct": 3.200706598829539,
+    "vwapGapPct": 0.6862320602998961,
+    "sessionValueCrore": 67.28156923126221,
+    "sessionVolume": 646467,
+    "opening30High": 1048.0999755859375,
+    "lastCompletedBar": {
+      "timestamp": 1790138400,
+      "open": 1044.300048828125,
+      "high": 1047,
+      "low": 1043.5999755859375,
+      "close": 1046.0999755859375,
+      "volume": 28243
+    },
+    "illustrativeBreakout": 1050.65,
+    "illustrativeTarget": 1071.66,
+    "illustrativeStop": 1029.64,
+    "momentumEligible": true,
+    "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/MOTILALOFS.NS?interval=5m&range=1d"
+  },
+  {
+    "ticker": "ICICIGI.NS",
+    "name": "ICICI Lombard General Insurance Company Limited",
+    "asOf": "2026-09-23T04:48:38.000Z",
+    "status": "Current-session quote",
+    "reference": 1491.7,
+    "target": 1521.53,
+    "estimate": null,
+    "evidenceCount": 4,
+    "summary": "4 of 4 observable momentum conditions support this setup. These conditions rank shares for investigation; they have not been calibrated into a chance of a 2% return.",
+    "positives": [
+      "Price is above the session open, indicating positive intraday direction.",
+      "Price is above the volume-weighted average of available 5-minute bars.",
+      "Price is above the previous close.",
+      "Price is within 0.5% of the reported session high."
+    ],
+    "risks": [
+      "No validated probability model is available for a 2% gain from this intraday quote. Signal count is not a probability.",
+      "Quotes may be delayed. The target is 2% above the displayed quote before costs; it is not an execution price or guaranteed return.",
+      "311 minutes remain in the provider-reported regular session. Momentum can reverse before the target is reached."
+    ],
+    "catalyst": null,
+    "metrics": [
+      {
+        "label": "Move from previous close",
+        "value": "0.79%"
+      },
+      {
+        "label": "Session open",
+        "value": "₹1483.10"
+      },
+      {
+        "label": "Session high / low",
+        "value": "₹1494.70 / ₹1482.30"
+      },
+      {
+        "label": "Approximate VWAP",
+        "value": "₹1488.09"
+      },
+      {
+        "label": "Quote age",
+        "value": "0 minutes"
+      },
+      {
+        "label": "Time remaining",
+        "value": "311 minutes"
+      }
+    ],
+    "liquidityAudit": {
+      "isLiquid": true,
+      "status": "VERIFIED_LIQUID",
+      "label": "🛡️ Liquid Equity",
+      "badgeColor": "emerald",
+      "warnings": [],
+      "isPennyStock": false
+    },
+    "quote": {
+      "ticker": "ICICIGI.NS",
+      "name": "ICICI Lombard General Insurance Company Limited",
+      "price": 1491.7,
+      "timestamp": 1790138918,
+      "previousClose": 1480,
+      "open": 1483.0999755859375,
+      "high": 1494.7,
+      "low": 1482.3,
+      "vwap": 1488.0942706789351,
+      "sessionStart": 1790135100,
+      "sessionEnd": 1790157600
+    },
+    "fetchedAt": "2026-09-23T04:48:46.741Z",
+    "changePct": 0.7905405405405519,
+    "fromOpenPct": 0.5798681515495785,
+    "vwapGapPct": 0.24230516789907064,
+    "sessionValueCrore": 65.1398386046997,
+    "sessionVolume": 437740,
+    "opening30High": 1489.5,
+    "lastCompletedBar": {
+      "timestamp": 1790138400,
+      "open": 1488.9000244140625,
+      "high": 1491.800048828125,
+      "low": 1488.4000244140625,
+      "close": 1490.4000244140625,
+      "volume": 2945
+    },
+    "illustrativeBreakout": 1496.2,
+    "illustrativeTarget": 1526.12,
+    "illustrativeStop": 1466.28,
+    "momentumEligible": true,
+    "sourceUrl": "https://query1.finance.yahoo.com/v8/finance/chart/ICICIGI.NS?interval=5m&range=1d"
+  }
+]

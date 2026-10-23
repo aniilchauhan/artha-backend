@@ -1,0 +1,71 @@
+{
+    "strategy_version": "breakout_v1",
+    "model_version": "v1",
+    "feature_version": "v1",
+    "created_at": "2026-09-03",
+    "status": "FROZEN_FOR_FORWARD_PAPER_TRADING",
+    "objective": "Forward out-of-sample paper trading validation of LightGBM swing predictions with breakout confirmation and ATR risk control",
+    "stock_universe": [
+        "RELIANCE.NS", "TCS.NS", "INFY.NS", "HDFCBANK.NS", "ICICIBANK.NS",
+        "SBIN.NS", "BHARTIARTL.NS", "LT.NS", "SUNPHARMA.NS", "VEDL.NS",
+        "HAL.NS", "KOTAKBANK.NS", "AXISBANK.NS", "BAJFINANCE.NS", "BAJAJFINSV.NS",
+        "INDUSINDBK.NS", "WIPRO.NS", "HCLTECH.NS", "TECHM.NS", "HINDUNILVR.NS",
+        "ITC.NS", "NESTLEIND.NS", "BRITANNIA.NS", "TATACONSUM.NS", "TITAN.NS",
+        "ASIANPAINT.NS", "MARUTI.NS", "M&M.NS", "BAJAJ-AUTO.NS", "EICHERMOT.NS",
+        "HEROMOTOCO.NS", "CIPLA.NS", "DRREDDY.NS", "APOLLOHOSP.NS", "DIVISLAB.NS",
+        "TATASTEEL.NS", "JSWSTEEL.NS", "HINDALCO.NS", "COALINDIA.NS", "NTPC.NS",
+        "POWERGRID.NS", "ONGC.NS", "BPCL.NS", "ULTRACEMCO.NS", "GRASIM.NS",
+        "ADANIPORTS.NS", "ADANIENT.NS", "BEL.NS", "TRENT.NS", "SHREECEM.NS"
+    ],
+    "target_definition": {
+        "formula": "next_day_high >= today_close * 1.02",
+        "description": "Predict whether next trading day High reaches at least +2% from today Close"
+    },
+    "execution_parameters": {
+        "score_threshold_primary": 0.60,
+        "score_threshold_high_conviction": 0.70,
+        "entry_trigger": {
+            "formula": "round(today_close * 1.0025, 2)",
+            "description": "Enter only when price crosses +0.25% above today's close (confirms momentum, rejects opening gap-downs)",
+            "order_type": "Buy Stop-Limit / Buy Stop at breakout trigger"
+        },
+        "profit_target": {
+            "formula": "round(entry_price * 1.02, 2)",
+            "pct": 0.02,
+            "description": "Fixed +2.00% target above executed entry price"
+        },
+        "stop_loss": {
+            "formula": "round(entry_price - (1.2 * ATR_14), 2)",
+            "atr_multiplier": 1.2,
+            "atr_period": 14,
+            "description": "Dynamic volatility stop loss set 1.2x ATR below executed entry price"
+        },
+        "maximum_holding_period": "1 trading session (Exit at market close 3:25 PM IST if neither target nor stop reached)",
+        "handling_rules": {
+            "not_triggered": "If session High < breakout trigger, order is cancelled with zero PnL (Status: NOT_TRIGGERED)",
+            "gap_up_above_trigger": "If session Open > trigger, Entry = session Open (accounts for gap premium)",
+            "ambiguous_both_hit": "If both target and stop are inside the daily High-Low candle, stop-loss is conservatively assumed hit first (Status: AMBIGUOUS / STOP_HIT)",
+            "time_exit": "If neither target nor stop is hit, position closes at session Close (Status: TIME_EXIT)"
+        },
+        "transaction_costs": {
+            "brokerage_and_taxes_pct": 0.0010,
+            "slippage_pct": 0.0005,
+            "total_roundtrip_friction_pct": 0.0015
+        }
+    },
+    "model_configuration": {
+        "algorithm": "LightGBM Classifier",
+        "model_file": "models/v1/lightgbm_stock_model.pkl",
+        "feature_count": 64,
+        "parameters": {
+            "n_estimators": 500,
+            "learning_rate": 0.03,
+            "max_depth": 6,
+            "num_leaves": 31,
+            "subsample": 0.8,
+            "colsample_bytree": 0.8,
+            "class_weight": "balanced",
+            "random_state": 42
+        }
+    }
+}

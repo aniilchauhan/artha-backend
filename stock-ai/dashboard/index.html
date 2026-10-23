@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AI/ML Stock Market Prediction and Walk-Forward Backtesting System for Indian NSE Equities">
+  <title>NSE Stock AI — Quantitative Prediction & Backtesting Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-layout">
+    <!-- Top Navigation Header -->
+    <header class="top-nav" id="top-nav">
+      <div class="brand-container">
+        <div class="brand-logo">
+          <svg class="pulse-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
+            <polyline points="16 7 22 7 22 13"></polyline>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <h1>NSE Stock AI</h1>
+          <span class="brand-sub">Quantitative Swing Predictor (+2% Next-Day High)</span>
+        </div>
+      </div>
+
+      <div class="header-badges">
+        <span class="badge badge-nse">NSE India (₹ Denominated)</span>
+        <span class="badge badge-anti-leakage">✓ Strict Anti-Leakage</span>
+        <span class="badge badge-model">LightGBM · 64 Features</span>
+      </div>
+
+      <div class="header-actions">
+        <button id="btn-refresh-data" class="btn btn-secondary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
+          Refresh
+        </button>
+        <button id="btn-run-scan" class="btn btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+          Run EOD Scanner
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Workspace -->
+    <div class="workspace-container">
+      <!-- Navigation Tabs -->
+      <nav class="nav-tabs" role="tablist">
+        <button class="tab-btn active" id="tab-btn-scanner" data-target="tab-scanner">
+          <span class="tab-icon">🎯</span> Daily Predictions & SHAP
+        </button>
+        <button class="tab-btn" id="tab-btn-backtest" data-target="tab-backtest">
+          <span class="tab-icon">📈</span> Walk-Forward Backtest
+        </button>
+        <button class="tab-btn" id="tab-btn-calibration" data-target="tab-calibration">
+          <span class="tab-icon">⚖️</span> Calibration & Thresholds
+        </button>
+        <button class="tab-btn" id="tab-btn-features" data-target="tab-features">
+          <span class="tab-icon">🧠</span> Feature Importance
+        </button>
+        <button class="tab-btn" id="tab-btn-paper" data-target="tab-paper">
+          <span class="tab-icon">💼</span> Live Paper Trading (v1)
+        </button>
+      </nav>
+
+      <!-- TAB 1: DAILY SCANNER -->
+      <main class="tab-pane active" id="tab-scanner">
+        <!-- Metric Cards -->
+        <div class="metric-grid">
+          <div class="metric-card" id="card-scan-date">
+            <span class="metric-title">Market Session</span>
+            <h2 class="metric-value" id="val-scan-date">Loading...</h2>
+            <span class="metric-sub">Closing Data As-Of Date</span>
+          </div>
+          <div class="metric-card" id="card-strong-count">
+            <span class="metric-title">Strong Candidates</span>
+            <h2 class="metric-value highlight-green" id="val-strong-count">0</h2>
+            <span class="metric-sub">Score &ge; 0.70</span>
+          </div>
+          <div class="metric-card" id="card-watch-count">
+            <span class="metric-title">Watchlist Candidates</span>
+            <h2 class="metric-value highlight-cyan" id="val-watch-count">0</h2>
+            <span class="metric-sub">0.55 &le; Score &lt; 0.70</span>
+          </div>
+          <div class="metric-card" id="card-universe-size">
+            <span class="metric-title">Universe Scanned</span>
+            <h2 class="metric-value" id="val-universe-size">50</h2>
+            <span class="metric-sub">Liquid NSE Equities</span>
+          </div>
+        </div>
+
+        <!-- Filter & Search Bar -->
+        <div class="table-toolbar">
+          <div class="search-box">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            <input type="text" id="input-search-ticker" placeholder="Search stock (e.g. RELIANCE, VEDL, MARUTI)...">
+          </div>
+          <div class="filter-group">
+            <label for="select-label-filter">Filter Label:</label>
+            <select id="select-label-filter">
+              <option value="ALL">All Candidates (50)</option>
+              <option value="Strong Candidate">Strong Candidates (&ge; 0.70)</option>
+              <option value="Watch">Watchlist (0.55 - 0.70)</option>
+              <option value="Skip">Skip (&lt; 0.55)</option>
+            </select>
+          </div>
+          <div class="threshold-slider-group">
+            <span id="slider-val-label">Threshold Cutoff: <strong>0.50</strong></span>
+            <input type="range" id="slider-threshold" min="0.30" max="0.85" step="0.05" value="0.50">
+          </div>
+        </div>
+
+        <!-- Candidates Table -->
+        <div class="table-card glass-panel">
+          <div class="table-responsive">
+            <table class="data-table" id="predictions-table">
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>Stock Ticker</th>
+                  <th>Model Score</th>
+                  <th>Status</th>
+                  <th>Close (Rs.)</th>
+                  <th>RSI (14)</th>
+                  <th>Vol Ratio</th>
+                  <th>1D Ret</th>
+                  <th>5D Ret</th>
+                  <th>ATR %</th>
+                  <th>Primary SHAP Driver</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody id="predictions-tbody">
+                <tr><td colspan="12" class="text-center">Loading predictions...</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </main>
+
+      <!-- TAB 2: WALK-FORWARD BACKTEST -->
+      <section class="tab-pane" id="tab-backtest">
+        <div class="section-header">
+          <div>
+            <h2>Walk-Forward Backtesting (22 Rolling Quarters)</h2>
+            <p class="section-desc">67,249 out-of-sample trading bars tested across expanding historical training windows.</p>
+          </div>
+        </div>
+
+        <!-- Strategy Execution Comparison Cards -->
+        <div class="strategy-cards-grid" id="strategy-cards-container">
+          <!-- Populated by JS -->
+        </div>
+
+        <!-- Equity Curve Chart Panel -->
+        <div class="chart-card glass-panel">
+          <div class="chart-header">
+            <h3>Cumulative Equity & Performance Profile</h3>
+            <span class="chart-legend-tag">Net of 0.10% Transaction Costs + 0.05% Slippage</span>
+          </div>
+          <div class="chart-container" id="chart-equity-wrapper">
+            <canvas id="canvas-equity-curve" width="1000" height="340"></canvas>
+          </div>
+        </div>
+
+        <!-- Walk-Forward Strategy Comparison Matrix Table -->
+        <div class="table-card glass-panel mt-4">
+          <div class="table-header">
+            <h3>Strategy Execution Matrix (Side-by-Side Comparison)</h3>
+          </div>
+          <div class="table-responsive">
+            <table class="data-table" id="strategy-table">
+              <thead>
+                <tr>
+                  <th>Strategy Execution Model</th>
+                  <th>Total Trades</th>
+                  <th>Win Rate</th>
+                  <th>Avg Net Return</th>
+                  <th>Profit Factor</th>
+                  <th>Sharpe Ratio</th>
+                  <th>Expectancy / Trade</th>
+                </tr>
+              </thead>
+              <tbody id="strategy-tbody">
+                <!-- Populated by JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 3: CALIBRATION & THRESHOLDS -->
+      <section class="tab-pane" id="tab-calibration">
+        <div class="section-header">
+          <div>
+            <h2>Probability Calibration & Out-of-Sample Threshold Sweep</h2>
+            <p class="section-desc">Evaluated on unseen test data (2025-07-01 to 2026-09-02, 14,749 rows).</p>
+          </div>
+        </div>
+
+        <div class="two-col-grid">
+          <!-- Calibration Chart -->
+          <div class="chart-card glass-panel">
+            <div class="chart-header">
+              <h3>Empirical Probability Calibration Curve</h3>
+              <span class="badge badge-cyan">Brier Loss: 0.1548</span>
+            </div>
+            <div class="chart-container" id="chart-calibration-wrapper">
+              <canvas id="canvas-calibration" width="480" height="340"></canvas>
+            </div>
+            <p class="chart-note">
+              * The curve confirms a monotonic relationship: higher predicted scores directly translate to higher empirical win rates.
+            </p>
+          </div>
+
+          <!-- Threshold Sweep Table -->
+          <div class="table-card glass-panel">
+            <div class="table-header">
+              <h3>Threshold Performance Sweep</h3>
+            </div>
+            <div class="table-responsive">
+              <table class="data-table" id="threshold-table">
+                <thead>
+                  <tr>
+                    <th>Threshold</th>
+                    <th>Signals</th>
+                    <th>Win Rate (+2%)</th>
+                    <th>Lift vs Base (15.4%)</th>
+                    <th>Recall</th>
+                  </tr>
+                </thead>
+                <tbody id="threshold-tbody">
+                  <!-- Populated by JS -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 4: FEATURE IMPORTANCE -->
+      <section class="tab-pane" id="tab-features">
+        <div class="section-header">
+          <div>
+            <h2>LightGBM Information Gain & Feature Ranking</h2>
+            <p class="section-desc">The top signals that drive next-day +2% upward expansion in Indian NSE stocks.</p>
+          </div>
+        </div>
+
+        <div class="table-card glass-panel">
+          <div class="table-responsive">
+            <table class="data-table" id="features-table">
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>Feature Name</th>
+                  <th>Information Gain</th>
+                  <th>Decision Tree Splits</th>
+                  <th>Signal Intuition</th>
+                </tr>
+              </thead>
+              <tbody id="features-tbody">
+                <!-- Populated by JS -->
+              </tbody>
+            </table>
+          </div>
+      </section>
+
+      <!-- TAB 5: LIVE PAPER TRADING -->
+      <section class="tab-pane" id="tab-paper">
+        <div class="section-header">
+          <div>
+            <h2>Forward Paper Trading & Position Sizing Hub (Frozen v1)</h2>
+            <p class="section-desc">True forward out-of-sample tracking with 1-minute intraday execution validation and ₹5,00,000 capital management.</p>
+          </div>
+          <button id="btn-run-paper-routine" class="btn btn-primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+            Run Post-Market Routine
+          </button>
+        </div>
+
+        <!-- Metric Cards -->
+        <div class="metric-grid">
+          <div class="metric-card">
+            <span class="metric-title">Portfolio Base</span>
+            <h2 class="metric-value highlight-cyan">₹5,00,000</h2>
+            <span class="metric-sub">Account Capital Base</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-title">Pending Orders</span>
+            <h2 class="metric-value highlight-amber" id="val-paper-pending">0</h2>
+            <span class="metric-sub">Active for Next Session</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-title">Trigger Rate</span>
+            <h2 class="metric-value highlight-green" id="val-paper-trigger-rate">0.0%</h2>
+            <span class="metric-sub">Session High &ge; Trigger</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-title">Realized Win Rate</span>
+            <h2 class="metric-value" id="val-paper-winrate">0.0%</h2>
+            <span class="metric-sub">Target Hit vs Stop Hit</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-title">Realized Net PnL</span>
+            <h2 class="metric-value" id="val-paper-net-pnl">₹0.00</h2>
+            <span class="metric-sub">Net of 0.15% Round-Trip Costs</span>
+          </div>
+        </div>
+
+        <!-- Section 1: Active Breakout Orders & Sizing -->
+        <div class="table-card glass-panel mb-4">
+          <div class="table-header">
+            <h3>Active Next-Session Breakout Orders & Capital Allocation (₹ Sizing)</h3>
+          </div>
+          <div class="table-responsive">
+            <table class="data-table" id="paper-orders-table">
+              <thead>
+                <tr>
+                  <th>Stock Ticker</th>
+                  <th>Model Score</th>
+                  <th>Breakout Trigger</th>
+                  <th>Sized Shares</th>
+                  <th>Allocated Capital</th>
+                  <th>Capital Weight</th>
+                  <th>Stop Loss</th>
+                  <th>Profit Target</th>
+                  <th>Max Risk (1% Cap)</th>
+                  <th>Potential Reward</th>
+                  <th>Reward / Risk</th>
+                </tr>
+              </thead>
+              <tbody id="paper-orders-tbody">
+                <tr><td colspan="11" class="text-center">Loading allocated orders...</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Section 2: Executed Forward Trades (Intraday Minute-by-Minute History) -->
+        <div class="table-card glass-panel mt-4">
+          <div class="table-header">
+            <h3>Completed Intraday Executions (Minute-by-Minute Outcome Ledger)</h3>
+          </div>
+          <div class="table-responsive">
+            <table class="data-table" id="paper-results-table">
+              <thead>
+                <tr>
+                  <th>Signal Date</th>
+                  <th>Trade Date</th>
+                  <th>Stock Ticker</th>
+                  <th>Model Score</th>
+                  <th>Entry Time</th>
+                  <th>Entry Price</th>
+                  <th>Stop Loss</th>
+                  <th>Profit Target</th>
+                  <th>Exit Time</th>
+                  <th>Exit Price</th>
+                  <th>Execution Status</th>
+                  <th>Gross Ret</th>
+                  <th>Costs</th>
+                  <th>Net Ret %</th>
+                </tr>
+              </thead>
+              <tbody id="paper-results-tbody">
+                <tr><td colspan="14" class="text-center">Loading forward trade history...</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- SHAP Modal Drawer -->
+    <div class="modal-backdrop" id="shap-modal" aria-hidden="true">
+      <div class="modal-dialog glass-panel" role="dialog" aria-labelledby="modal-title">
+        <div class="modal-header">
+          <div>
+            <h3 id="modal-title">Stock Tree SHAP Feature Contribution</h3>
+            <span id="modal-subtitle" class="modal-sub">Attribution Analysis</span>
+          </div>
+          <button class="modal-close-btn" id="btn-modal-close">&times;</button>
+        </div>
+        <div class="modal-body" id="modal-body-content">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

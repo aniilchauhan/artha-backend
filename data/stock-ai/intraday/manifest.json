@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-09-23T04:48:46.747Z",
+  "requested": 500,
+  "usable": 500,
+  "excluded": 0,
+  "conditionCounts": {
+    "0": 135,
+    "1": 69,
+    "2": 102,
+    "3": 55,
+    "4": 139
+  },
+  "shortlistCount": 15,
+  "methodology": "Existing currentOpportunity() logic. Additional shortlist: all 4 conditions, at least INR 10 crore observed session value, price >=20, at most 2% above approximate VWAP. Ties ordered by observed session value. Latest shortlisted quotes re-fetched.",
+  "limitations": [
+    "Uncalibrated momentum screen; no probability estimates.",
+    "Provider quotes may be delayed.",
+    "Breakout/target/stop are illustrative planning levels, not a validated execution strategy.",
+    "Historical liquidity audit bundled by the application may be stale; shortlist uses observed current-session turnover."
+  ],
+  "failures": []
+}

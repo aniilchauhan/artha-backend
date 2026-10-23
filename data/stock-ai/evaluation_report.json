@@ -1,0 +1,122 @@
+{
+    "test_start": "2025-07-01",
+    "test_end": "2026-09-02",
+    "samples": 14749,
+    "positive_rate": 0.15390873957556445,
+    "roc_auc": 0.6655476177952528,
+    "pr_auc": 0.27670003669142196,
+    "threshold_sweep": [
+        {
+            "Threshold": 0.5,
+            "Signals": 95,
+            "Signal Rate (%)": 0.64,
+            "True Pos (Wins)": 56,
+            "False Pos (Losses)": 39,
+            "Precision / Win Rate": 0.5895,
+            "Recall": 0.0247,
+            "F1 Score": 0.0474
+        },
+        {
+            "Threshold": 0.55,
+            "Signals": 74,
+            "Signal Rate (%)": 0.5,
+            "True Pos (Wins)": 45,
+            "False Pos (Losses)": 29,
+            "Precision / Win Rate": 0.6081,
+            "Recall": 0.0198,
+            "F1 Score": 0.0384
+        },
+        {
+            "Threshold": 0.6,
+            "Signals": 74,
+            "Signal Rate (%)": 0.5,
+            "True Pos (Wins)": 45,
+            "False Pos (Losses)": 29,
+            "Precision / Win Rate": 0.6081,
+            "Recall": 0.0198,
+            "F1 Score": 0.0384
+        },
+        {
+            "Threshold": 0.65,
+            "Signals": 67,
+            "Signal Rate (%)": 0.45,
+            "True Pos (Wins)": 41,
+            "False Pos (Losses)": 26,
+            "Precision / Win Rate": 0.6119,
+            "Recall": 0.0181,
+            "F1 Score": 0.0351
+        },
+        {
+            "Threshold": 0.7,
+            "Signals": 41,
+            "Signal Rate (%)": 0.28,
+            "True Pos (Wins)": 31,
+            "False Pos (Losses)": 10,
+            "Precision / Win Rate": 0.7561,
+            "Recall": 0.0137,
+            "F1 Score": 0.0268
+        },
+        {
+            "Threshold": 0.75,
+            "Signals": 41,
+            "Signal Rate (%)": 0.28,
+            "True Pos (Wins)": 31,
+            "False Pos (Losses)": 10,
+            "Precision / Win Rate": 0.7561,
+            "Recall": 0.0137,
+            "F1 Score": 0.0268
+        },
+        {
+            "Threshold": 0.8,
+            "Signals": 41,
+            "Signal Rate (%)": 0.28,
+            "True Pos (Wins)": 31,
+            "False Pos (Losses)": 10,
+            "Precision / Win Rate": 0.7561,
+            "Recall": 0.0137,
+            "F1 Score": 0.0268
+        }
+    ],
+    "calibration": {
+        "brier_score": 0.12345264084938619,
+        "expected_calibration_error": 0.010440398647277383,
+        "calibration_table": [
+            {
+                "Mean Predicted Prob": 0.0831922219229481,
+                "Empirical Fraction Pos": 0.06339370829361296
+            },
+            {
+                "Mean Predicted Prob": 0.13109585616162509,
+                "Empirical Fraction Pos": 0.13144493952896244
+            },
+            {
+                "Mean Predicted Prob": 0.2418042598903664,
+                "Empirical Fraction Pos": 0.22422535211267605
+            },
+            {
+                "Mean Predicted Prob": 0.337825795573968,
+                "Empirical Fraction Pos": 0.2804718217562254
+            },
+            {
+                "Mean Predicted Prob": 0.42190814540903915,
+                "Empirical Fraction Pos": 0.3899159663865546
+            },
+            {
+                "Mean Predicted Prob": 0.5425835186020247,
+                "Empirical Fraction Pos": 0.5
+            },
+            {
+                "Mean Predicted Prob": 0.6579915558775813,
+                "Empirical Fraction Pos": 0.42424242424242425
+            },
+            {
+                "Mean Predicted Prob": 0.8461538461538461,
+                "Empirical Fraction Pos": 0.5
+            },
+            {
+                "Mean Predicted Prob": 0.9260025487827079,
+                "Empirical Fraction Pos": 0.7837837837837838
+            }
+        ]
+    }
+}

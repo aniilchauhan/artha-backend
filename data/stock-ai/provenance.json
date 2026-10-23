@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-09-23T04:40:53.554385+00:00",
+  "target_version": "2.0-executable",
+  "preprocessing_version": "2.0-temporal-isolated",
+  "model_sha256": "6d3fe58e7ee9b8ee5223848028ffd0465eec21ff280fa5ae2fd99db731f70775",
+  "data_cutoff": "2026-09-22",
+  "dataset_sha256": "ffe0e242b3061b8977fa4eed92fe8b218334d0a8a11d91bbb55ef26afcf0d9df",
+  "universe": "all",
+  "synthetic_features": false,
+  "evaluation_method": "chronological_holdout",
+  "limitations": [
+    "No synthetic sentiment or institutional-flow features were used.",
+    "Validation is used for both early stopping and calibration.",
+    "Test period has been inspected previously; this is not a fresh blind holdout.",
+    "Daily bars use conservative stop-first resolution; execution costs are modeled."
+  ],
+  "artifacts": {
+    "backtest_summary.json": "a2c9ff90508e823669a3a408945dac9088e157ac6efefe65de402d60346f5a65",
+    "backtest_trades.csv": "5862e0be44cb03be109668159df52c8a05994945b587182a7bae66aefe157bd9",
+    "calibration_comparison.json": "8b62b7aeed7c53ad2244f334d1a640b61022117e4e3a886c05767891f903b1f8",
+    "calibration_comparison.png": "0f205a41dd5e090dbdc628e1e7a16d3e5af286e31fc9aae1af953398741e8787",
+    "calibration_curve.png": "c7909593f718dee6d8917a02b650773cf3a798ff4add61c7888b36694b3e7ca5",
+    "evaluation_report.json": "6687938eb22dc285d82780983689a51d42c9a8aeb0ac8e0220c4b2b93ef09eea",
+    "latest_predictions.csv": "a82184dd9deec06c20596d272dbb67880d7a8254962a05996db5c3199273f802",
+    "latest_predictions.json": "bcdcc9c3ff95ae29be6990153b8631596d486f18b4884c2337014c6af304a3c4",
+    "threshold_sweep.csv": "cf917f41baa1645625aeac8c71de0b267e681f6b4d95c423bc7c440d2610ef46"
+  },
+  "status": "candidate_evaluated",
+  "artifact_metadata": {
+    "latest_predictions.json": {
+      "data_cutoff": "2026-10-16",
+      "generated_at": "2026-10-17T12:13:48.761820+00:00",
+      "universe": "core50",
+      "accuracy_status": "research_candidate"
+    },
+    "latest_predictions.csv": {
+      "data_cutoff": "2026-10-16",
+      "generated_at": "2026-10-17T12:13:48.788189+00:00",
+      "universe": "core50",
+      "accuracy_status": "research_candidate"
+    }
+  },
+  "calibrated_model_sha256": "a387208e80a91267bd44d3e0402fb36355f1c24b27fd6ece8a5b7aabf4c6521b"
+}
