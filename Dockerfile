@@ -24,6 +24,7 @@ COPY . .
 # 4. Build Next.js backend bundle
 ENV NODE_ENV=production
 ENV NEXT_TELEMETRY_DISABLED=1
+ENV NODE_OPTIONS="--max-old-space-size=1536"
 RUN npm run build
 
 # 5. Expose port and healthcheck

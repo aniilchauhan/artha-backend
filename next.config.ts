@@ -5,6 +5,25 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   eslint: { ignoreDuringBuilds: true },
   typescript: { ignoreBuildErrors: true },
+  outputFileTracingExcludes: {
+    '*': [
+      './stock-ai/**/*',
+      './data/**/*',
+      './scratch/**/*',
+    ],
+  },
+  experimental: {
+    workerThreads: false,
+    cpus: 1,
+  },
+  webpack(config) {
+    for (const plugin of config.plugins ?? []) {
+      if (plugin?.constructor?.name === 'TraceEntryPointsPlugin' && Array.isArray(plugin.traceIgnores)) {
+        plugin.traceIgnores.push('**/stock-ai/**', '**/data/**', '**/scratch/**');
+      }
+    }
+    return config;
+  },
   async headers() {
     return [
       {

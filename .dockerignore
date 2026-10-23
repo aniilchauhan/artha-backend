@@ -1,0 +1,12 @@
+node_modules
+.next
+stock-ai/data
+stock-ai/runs
+stock-ai/outputs
+stock-ai/venv
+stock-ai/catboost_info
+data/nse-archives
+*.log
+*.parquet
+*.apk
+scratch
