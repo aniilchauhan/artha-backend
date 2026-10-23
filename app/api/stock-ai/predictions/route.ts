@@ -21,8 +21,8 @@ export async function GET(request: NextRequest) {
 
     let predictions = getLatestPredictions();
     const validity = validatePredictionSnapshot(predictions);
-    if (!validity.valid) {
-      return NextResponse.json({ success: false, error: validity.reason, provenance, validity }, { status: 503 });
+    if (!validity.valid && provenance) {
+      provenance.warning = validity.reason;
     }
 
     if (ticker) {
