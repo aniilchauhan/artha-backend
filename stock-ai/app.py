@@ -160,6 +160,48 @@ def get_predictions():
     with open(pred_path, "r", encoding="utf-8") as f:
         return json.load(f)
 
+# --- Real-Time Sentiment & Signal Fusion API ---
+class FuseSignalRequest(BaseModel):
+    ticker: str
+    rsi: Optional[float] = 50.0
+    macdHistogram: Optional[float] = 0.0
+    smaTrend: Optional[str] = "NEUTRAL"
+    normalizedScore: Optional[float] = None
+    forceRefresh: Optional[bool] = False
+
+@app.get("/api/sentiment/ticker/{ticker}")
+def get_ticker_sentiment(ticker: str, force_refresh: bool = False):
+    """
+    Get live multi-window rolling sentiment metrics (15m, 1h, 24h),
+    sentiment momentum, volume surges, and recent scored news stories.
+    """
+    try:
+        from src.sentiment.service import pipeline_service
+        return pipeline_service.get_or_fetch_sentiment(ticker, force_refresh=force_refresh)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Sentiment processing error: {str(e)}")
+
+@app.post("/api/sentiment/fuse")
+def fuse_technical_and_sentiment(req: FuseSignalRequest):
+    """
+    Fuse technical indicator payload (RSI, MACD, Trend) with real-time sentiment
+    to produce composite action (BUY/HOLD/SELL), confidence %, and natural language drivers.
+    """
+    try:
+        from src.sentiment.service import pipeline_service
+        return pipeline_service.fuse_signals(
+            ticker=req.ticker,
+            technical_input={
+                "rsi": req.rsi,
+                "macdHistogram": req.macdHistogram,
+                "smaTrend": req.smaTrend,
+                "normalizedScore": req.normalizedScore,
+            },
+            force_refresh=req.forceRefresh or False,
+        )
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Signal fusion error: {str(e)}")
+
 if __name__ == "__main__":
     import uvicorn
     port = int(os.environ.get("PORT", 7860))

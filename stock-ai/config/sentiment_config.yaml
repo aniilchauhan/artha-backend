@@ -1,0 +1,110 @@
+# Real-time Sentiment Analysis & Fusion Configuration
+version: "1.0"
+
+# Target Stock Universe & Aliases for Entity Recognition
+symbols:
+  RELIANCE.NS:
+    name: "Reliance Industries"
+    aliases: ["Reliance", "RIL", "Jio", "Mukesh Ambani", "Reliance Retail"]
+    exchange: "NSE"
+    sector: "Energy / Telecom"
+  TCS.NS:
+    name: "Tata Consultancy Services"
+    aliases: ["TCS", "Tata Consultancy", "Tata Sons"]
+    exchange: "NSE"
+    sector: "Information Technology"
+  INFY.NS:
+    name: "Infosys"
+    aliases: ["Infosys", "Infy", "Salil Parekh"]
+    exchange: "NSE"
+    sector: "Information Technology"
+  HDFCBANK.NS:
+    name: "HDFC Bank"
+    aliases: ["HDFC Bank", "HDFC", "HDFCBK"]
+    exchange: "NSE"
+    sector: "Financials"
+  ICICIBANK.NS:
+    name: "ICICI Bank"
+    aliases: ["ICICI Bank", "ICICI"]
+    exchange: "NSE"
+    sector: "Financials"
+  SBIN.NS:
+    name: "State Bank of India"
+    aliases: ["State Bank of India", "SBI", "State Bank"]
+    exchange: "NSE"
+    sector: "Financials"
+  BHARTIARTL.NS:
+    name: "Bharti Airtel"
+    aliases: ["Airtel", "Bharti Airtel", "Sunil Mittal"]
+    exchange: "NSE"
+    sector: "Telecom"
+  TATAMOTORS.NS:
+    name: "Tata Motors"
+    aliases: ["Tata Motors", "TaMo", "JLR", "Jaguar Land Rover"]
+    exchange: "NSE"
+    sector: "Automotive"
+
+# Data Collectors & Feed Sources
+sources:
+  news_rss:
+    enabled: true
+    rate_limit_per_minute: 60
+    feeds:
+      - name: "Google News Financials"
+        url_template: "https://news.google.com/rss/search?q={query}+stock+when:2d&hl=en-IN&gl=IN&ceid=IN:en"
+        credibility: 0.80
+      - name: "Economic Times Markets"
+        url: "https://economictimes.indiatimes.com/markets/stocks/rssfeeds/2146842.cms"
+        credibility: 0.85
+      - name: "Moneycontrol Top News"
+        url: "https://www.moneycontrol.com/rss/MCtopnews.xml"
+        credibility: 0.85
+      - name: "Livemint Companies"
+        url: "https://www.livemint.com/rss/companies"
+        credibility: 0.85
+  
+  official_exchange:
+    enabled: true
+    credibility: 1.00 # Official disclosures have highest authority
+    cache_ttl_seconds: 300
+    
+  social_media:
+    enabled: true
+    credibility: 0.40 # Higher noise-to-signal ratio
+    rate_limit_per_minute: 30
+    subreddits:
+      - "IndiaInvestments"
+      - "IndianStreetBets"
+      - "wallstreetbets"
+
+# Sentiment Scoring Model Configurations
+scorer:
+  primary_model: "ProsusAI/finbert"
+  fallback_model: "vader"
+  device: "cpu" # "cuda" or "cpu"
+  batch_size: 16
+  max_sequence_length: 128
+  
+  # Half-life for exponential recency decay (in hours)
+  # Score multiplier = exp(-ln(2) * age_hours / half_life_hours)
+  half_life_hours: 6.0
+
+# Rolling Aggregation Windows (in minutes)
+aggregation:
+  windows_minutes:
+    fast: 15
+    medium: 60
+    slow: 1440 # 24 hours
+  volume_spike_multiplier: 2.0 # 2x rolling mean triggers a volume catalyst alert
+
+# Technical + Sentiment Fusion Parameters
+fusion:
+  weights:
+    technical: 0.60
+    sentiment: 0.40
+  thresholds:
+    strong_buy: 0.65
+    buy: 0.25
+    sell: -0.25
+    strong_sell: -0.65
+  confidence_boost_agreement: 0.15 # Bonus confidence if both technical and sentiment agree
